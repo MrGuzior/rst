@@ -10,6 +10,7 @@ import {selectData} from '../../store/appSlice'
 
 import Nav from '../Nav/Nav'
 import Home from '../Home/Home'
+import Results from '../Results/Results'
 
 function App() {
   const data = useSelector(selectData)
@@ -18,12 +19,16 @@ function App() {
 
   return (
     <>
-      <Nav/>
       <Router>
+      <Nav/>
+      <a href='/'>RST</a>
           <Switch>
             
-            <Route exact path='/'>
+            <Route exact path='/' component={Home}>
               <Home/>
+            </Route>
+            <Route exact path='/results' component={Results}>
+              <Results/>
             </Route>
 
           </Switch>

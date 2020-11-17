@@ -3,16 +3,16 @@ import {useSelector} from 'react-redux'
 import {selectData} from '../../store/appSlice'
 
 const ResultList = () => {
-    const data = useSelector(selectData).flights
+    const data = useSelector(selectData).users
 
 
     return(
         <section className="list">
             <ol>
             {
-                data.map(flight => {  
+                data.map(user => {  
                 return(
-                    <li>{flight.details.speed}</li>
+                    <li>{user.name}</li>
                 )
             })
             }
