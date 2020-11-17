@@ -4,7 +4,6 @@ import {selectData} from '../../store/appSlice'
 
 const ResultList = ({list}) => {
     const {flights} = useSelector(selectData)
-    console.log(list)
 
     return(
         <section className="list">
