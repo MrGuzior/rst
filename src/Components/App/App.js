@@ -15,7 +15,7 @@ import Results from '../Results/Results'
 function App() {
   const data = useSelector(selectData)
 
-  console.log(data)
+  //console.log(data)
 
   return (
     <>
@@ -24,12 +24,12 @@ function App() {
       <a href='/'>RST</a>
           <Switch>
             
-            <Route exact path='/' component={Home}>
-              <Home/>
-            </Route>
-            <Route exact path='/results' component={Results}>
-              <Results/>
-            </Route>
+            <Route exact path='/' component={Home}/>
+              
+            
+            <Route path='/results' component={Results}/>
+              
+            
 
           </Switch>
       </Router>

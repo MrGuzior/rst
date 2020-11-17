@@ -1,22 +1,22 @@
 import React from 'react'
 import {useSelector} from 'react-redux'
-import {selectData} from '../../store/appSlice'
+import {useDispatch} from 'react-redux'
+import {selectData, getUser} from '../../store/appSlice'
 
-const ResultList = () => {
-    const data = useSelector(selectData).users
-
+const ResultList = ({list}) => {
+    const {users, flights} = useSelector(selectData)
+    console.log(list)
 
     return(
         <section className="list">
             <ol>
             {
-                data.map(user => {  
-                return(
-                    <li>{user.name}</li>
-                )
-            })
+                flights.map(flight=>{
+                return(<li>{flight.pilotName} {flight.date} {flight.details.speed}</li>)
+                })
             }
             </ol>
+        <p>{list}</p>
         </section>
     )
 }

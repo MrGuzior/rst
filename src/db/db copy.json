@@ -1,0 +1,93 @@
+{
+    "users": [
+    {
+        "id": 0,
+        "name": "Konrad",
+        "birthDay": "1997/03/20",
+        "club": "ÖSFK",
+        "email": "konrad.guzior@gmail.com",
+        "profilePicture": "",
+        "flights": [0,1,2]
+    },
+    {
+        "id": 1,
+        "name": "Jonas",
+        "birthDay": "1997/10/24",
+        "club": "ÖSFK",
+        "email": "jonas.linkan@gmail.com",
+        "profilePicture": "",
+        "flights": [3,4,5]
+    }
+    ],
+    "flights": [
+        {
+            "id": 0,
+            "pilotId": 0,
+            "date": "2020/11/16",
+            "file": ".IGC",
+            "details": {
+                "speed": 100,
+                "distance": 100,
+                "time": 6000000,
+                "comment": "My first flight ever"
+            }
+        },
+        {
+            "id": 1,
+            "pilotId": 0,
+            "date": "2020/11/16",
+            "file": ".IGC",
+            "details": {
+                "speed": 100,
+                "distance": 100,
+                "time": 6000000,
+                "comment": "My second flight ever"
+            }
+        },
+        {
+            "id": 2,
+            "pilotId": 0,
+            "date": "2020/11/16",
+            "file": ".IGC",
+            "details": {
+                "speed": 100,
+                "distance": 100,
+                "time": 6000000,
+                "comment": "My third flight ever"
+            }
+        },
+        {
+            "id": 3,
+            "date": "2020/11/16",
+            "file": ".IGC",
+            "details": {
+                "speed": 100,
+                "distance": 100,
+                "time": 6000000,
+                "comment": "My first flight ever"
+            }
+        },
+        {
+            "id": 4,
+            "date": "2020/11/16",
+            "file": ".IGC",
+            "details": {
+                "speed": 100,
+                "distance": 100,
+                "time": 6000000,
+                "comment": "My second flight ever"
+            }
+        },
+        {
+            "id": 5,
+            "date": "2020/11/16",
+            "file": ".IGC",
+            "details": {
+                "speed": 100,
+                "distance": 100,
+                "time": 6000000,
+                "comment": "My third flight ever"
+            }
+        }
+    ]
+}

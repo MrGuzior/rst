@@ -8,7 +8,7 @@ const Nav = () => {
 
 
     return(
-        <section className='nav'>
+        <section className='nav navigation'>
             <GlobalNav/>
             <PersonalNav/>
         </section>

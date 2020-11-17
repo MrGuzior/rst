@@ -2,7 +2,7 @@ import React from 'react'
 
 const PersonalNav = () => {
     return(
-        <nav className='personal-nav'>
+        <nav className='personal-nav navigation'>
             <ul>
                 <li>Nytt resultat</li>
                 <li>Task planner</li>

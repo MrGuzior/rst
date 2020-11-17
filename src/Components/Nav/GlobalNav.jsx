@@ -1,9 +1,9 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink as Link} from 'react-router-dom'
 
 const GlobalNav = () => {
     return(
-        <nav className='global-nav'>
+        <nav className='global-nav navigation'>
             <ul>
                 <li><Link to='/results'>Resultat</Link></li>
                 <li><Link to='/competitions'>Tävlingar</Link></li>
