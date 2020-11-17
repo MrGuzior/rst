@@ -9,7 +9,6 @@ const GlobalNav = () => {
                 <li><Link to='/competitions'>Tävlingar</Link></li>
                 <li><Link to='/rules'>Regler</Link></li>
                 <li><Link to='/contact'>Kontakt</Link></li>
-
             </ul>
         </nav>
     )

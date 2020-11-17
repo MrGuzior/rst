@@ -5,7 +5,6 @@ const Home = () => {
     return(
         <section className='home'>
             <ResultList/>
-
         </section>
     )
 }

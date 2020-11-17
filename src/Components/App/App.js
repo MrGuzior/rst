@@ -1,40 +1,30 @@
-import React from 'react';
+import React from 'react'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom"
-import './App.css';
-import {useSelector} from 'react-redux'
-import {selectData} from '../../store/appSlice'
-
+import './App.css'
 import Nav from '../Nav/Nav'
 import Home from '../Home/Home'
 import Results from '../Results/Results'
 
 function App() {
-  const data = useSelector(selectData)
-
-  //console.log(data)
-
   return (
     <>
       <Router>
-      <Nav/>
-      <a href='/'>RST</a>
+          <a href='/'>RST</a>
+          <Nav/>
           <Switch>
             
-            <Route exact path='/' component={Home}/>
-              
+            <Route exact path='/' component={Home}/>    
             
             <Route path='/results' component={Results}/>
               
-            
-
           </Switch>
       </Router>
     </>
-  );
+  )
 }
 
 export default App;

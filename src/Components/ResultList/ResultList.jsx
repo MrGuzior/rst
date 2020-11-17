@@ -1,14 +1,14 @@
 import React from 'react'
 import {useSelector} from 'react-redux'
-import {useDispatch} from 'react-redux'
-import {selectData, getUser} from '../../store/appSlice'
+import {selectData} from '../../store/appSlice'
 
 const ResultList = ({list}) => {
-    const {users, flights} = useSelector(selectData)
+    const {flights} = useSelector(selectData)
     console.log(list)
 
     return(
         <section className="list">
+        <p>{list}</p>
             <ol>
             {
                 flights.map(flight=>{
@@ -16,7 +16,6 @@ const ResultList = ({list}) => {
                 })
             }
             </ol>
-        <p>{list}</p>
         </section>
     )
 }
