@@ -8,14 +8,14 @@ import './App.css'
 import Nav from '../Nav/Nav'
 import Home from '../Home/Home'
 import Results from '../Results/Results'
+import headerBackground from '../../db/headerBackground.jpeg'
 
 function App() {
   return (
     <>
       <Router>
+          <div className='header-background'></div>
           <Nav/>
-          
-          <section className='main'>
             <Switch>
               
               <Route exact path='/' component={Home}/>    
@@ -23,7 +23,6 @@ function App() {
               <Route path='/results' component={Results}/>
                 
             </Switch>
-          </section>
       </Router>
     </>
   )
