@@ -46,9 +46,26 @@ code {
   
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 800px){
   .home .result-lists{
     grid-template-columns: 1fr;
+  }
+  .responsive-remove1{
+    display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive-remove2{
+    display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: hidden;
   }
 }
 
@@ -61,7 +78,7 @@ code {
 
 .header-background{
   width: 100%;
-  height: 100px;
+  height: 5px;
   object-fit: cover;
   background-color: rgb(46, 85, 255);
 }

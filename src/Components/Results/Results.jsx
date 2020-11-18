@@ -23,8 +23,9 @@ const Results = () => {
                 </Nav>
             </Navbar>
 
-
-            <ResultList list={activeList}/>
+            <div className='result'>
+                <ResultList list={activeList}/>
+            </div>
         </section>
     )
 }
