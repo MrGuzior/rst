@@ -13,17 +13,28 @@ code {
       monospace;
 }
 
-
-
-@media only screen and (max-width: 460px) {
-
+.Nav{
+  
 }
-@media only screen and (max-width: 767px) {
 
+.global-nav{
+  
 }
-@media only screen and (max-width: 900px) {
 
+.global-nav ul, .personal-nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
 }
-@media screen and (min-width: 1200px) {
 
+.global-nav ul li, .personal-nav ul li{
+  display: inline;
+  border: 1px solid black;
+  flex: 1 100px;
+}
+
+.personal-nav{
+  
 }

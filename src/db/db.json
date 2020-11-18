@@ -169,5 +169,22 @@
                 "comment": "My third flight ever"
             }
         }
+    ],
+    "news":[
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The new rst",
+            "article": "Let's get this party started!"
+        }
     ]
 }
