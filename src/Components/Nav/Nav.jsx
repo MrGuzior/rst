@@ -1,13 +1,10 @@
 import React, {useState} from 'react'
-import GlobalNav from './GlobalNav'
-import PersonalNav from './PersonalNav'
+import Navbar from './Navbar'
 
 const Nav = () => {
     return(
         <section className='Nav navigation'>
-            <div className='test'></div>
-                    <GlobalNav/>
-                    <PersonalNav/>
+                    <Navbar/>
         </section>
     )
 }

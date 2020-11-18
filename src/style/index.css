@@ -15,30 +15,8 @@ code {
 
 /*   NAV   */
 
-.Nav{
-  
-}
-
-.global-nav {
-  
-}
-
-.global-nav ul, .personal-nav ul{
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  
-}
-
-.global-nav ul li, .personal-nav ul li{
-  display: inline;
-  /* border: 1px solid black; */
-  flex: 1 0 15%
-}
-
 .personal-nav{
-  margin:auto;
+  float: right;
 }
 
 /*   News   */
