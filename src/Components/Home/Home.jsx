@@ -6,7 +6,12 @@ const Home = () => {
     return(
         <section className='home'>
             <News/>
-            <ResultList/>
+            <section className='result-lists'>
+                <ResultList/>
+                <ResultList/>
+                <ResultList/>
+                <ResultList/>
+            </section>
         </section>
     )
 }

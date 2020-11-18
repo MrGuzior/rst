@@ -5,7 +5,7 @@ const GlobalNav = () => {
     return(
         <nav className='global-nav navigation'>
             <ul>
-                <li><Link to='/results'>Resultat</Link></li>
+                <li><button><Link to='/results'>Resultat</Link></button></li>
                 <li><Link to='/competitions'>Tävlingar</Link></li>
                 <li><Link to='/rules'>Regler</Link></li>
                 <li><Link to='/contact'>Kontakt</Link></li>

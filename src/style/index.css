@@ -19,7 +19,7 @@ code {
   
 }
 
-.global-nav{
+.global-nav {
   
 }
 
@@ -33,12 +33,12 @@ code {
 
 .global-nav ul li, .personal-nav ul li{
   display: inline;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   flex: 1 0 15%
 }
 
 .personal-nav{
-  
+  margin:auto;
 }
 
 /*   News   */
@@ -51,4 +51,32 @@ code {
 .News .NewsItem{
   border: 1px solid black;
   flex: 1 0 33%
+}
+
+/*    Home    */
+.home{
+
+}
+
+.home .result-lists{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.home .result-lists .ResultList{
+  
+}
+
+@media only screen and (max-width: 900px){
+  .home .result-lists{
+    grid-template-columns: 1fr;
+  }
+}
+
+.test{
+  border: 1px solid black;
+  width: 100%;
+  height: 50px;
+  background-color: beige;
 }

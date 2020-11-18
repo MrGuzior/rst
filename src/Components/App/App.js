@@ -14,13 +14,16 @@ function App() {
     <>
       <Router>
           <Nav/>
-          <Switch>
-            
-            <Route exact path='/' component={Home}/>    
-            
-            <Route path='/results' component={Results}/>
+          
+          <section className='main'>
+            <Switch>
               
-          </Switch>
+              <Route exact path='/' component={Home}/>    
+              
+              <Route path='/results' component={Results}/>
+                
+            </Switch>
+          </section>
       </Router>
     </>
   )

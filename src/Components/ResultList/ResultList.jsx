@@ -6,7 +6,7 @@ const ResultList = ({list}) => {
     const {flights} = useSelector(selectData)
 
     return(
-        <section className="list">
+        <section className="ResultList">
         <p>{list}</p>
             <ol>
             {

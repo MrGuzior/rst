@@ -5,6 +5,7 @@ import PersonalNav from './PersonalNav'
 const Nav = () => {
     return(
         <section className='Nav navigation'>
+            <div className='test'></div>
                     <GlobalNav/>
                     <PersonalNav/>
         </section>
