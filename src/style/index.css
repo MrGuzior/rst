@@ -13,6 +13,8 @@ code {
       monospace;
 }
 
+/*   NAV   */
+
 .Nav{
   
 }
@@ -32,9 +34,21 @@ code {
 .global-nav ul li, .personal-nav ul li{
   display: inline;
   border: 1px solid black;
-  flex: 1 100px;
+  flex: 1 0 15%
 }
 
 .personal-nav{
   
+}
+
+/*   News   */
+
+.News{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.News .NewsItem{
+  border: 1px solid black;
+  flex: 1 0 33%
 }

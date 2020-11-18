@@ -13,7 +13,6 @@ function App() {
   return (
     <>
       <Router>
-          <a href='/'>RST</a>
           <Nav/>
           <Switch>
             
