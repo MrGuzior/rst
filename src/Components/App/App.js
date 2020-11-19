@@ -8,6 +8,7 @@ import './App.css'
 import Nav from '../Nav/Nav'
 import Home from '../Home/Home'
 import Results from '../Results/Results'
+import Flight from '../Flight/Flight'
 import headerBackground from '../../db/headerBackground.jpeg'
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
               <Route exact path='/' component={Home}/>    
               
               <Route path='/results' component={Results}/>
+
+              <Route path='/flights/:id' component={Flight}/>
                 
             </Switch>
       </Router>
