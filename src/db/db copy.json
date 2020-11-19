@@ -7,19 +7,7 @@
         "club": "ÖSFK",
         "email": "konrad.guzior@gmail.com",
         "profilePicture": "",
-        "flights": [0,1,2]
-    },
-    {
-        "id": 1,
-        "name": "Jonas",
-        "birthDay": "1997/10/24",
-        "club": "ÖSFK",
-        "email": "jonas.linkan@gmail.com",
-        "profilePicture": "",
-        "flights": [3,4,5]
-    }
-    ],
-    "flights": [
+        "flights": [
         {
             "id": 0,
             "pilotId": 0,
@@ -55,9 +43,97 @@
                 "time": 6000000,
                 "comment": "My third flight ever"
             }
+        }
+    ]
+    },
+    {
+        "id": 1,
+        "name": "Jonas",
+        "birthDay": "1997/10/24",
+        "club": "ÖSFK",
+        "email": "jonas.linkan@gmail.com",
+        "profilePicture": "",
+        "flights": [
+            {
+                "id": 3,
+                "date": "2020/11/16",
+                "file": ".IGC",
+                "details": {
+                    "speed": 100,
+                    "distance": 100,
+                    "time": 6000000,
+                    "comment": "My first flight ever"
+                }
+            },
+            {
+                "id": 4,
+                "date": "2020/11/16",
+                "file": ".IGC",
+                "details": {
+                    "speed": 100,
+                    "distance": 100,
+                    "time": 6000000,
+                    "comment": "My second flight ever"
+                }
+            },
+            {
+                "id": 5,
+                "date": "2020/11/16",
+                "file": ".IGC",
+                "details": {
+                    "speed": 100,
+                    "distance": 100,
+                    "time": 6000000,
+                    "comment": "My third flight ever"
+                }
+            }
+        ]
+    }
+    ],
+    "flights": [
+        {
+            "id": 0,
+            "pilotId": 0,
+            "pilotName": "Konrad Guzior",
+            "date": "2020/11/16",
+            "file": ".IGC",
+            "details": {
+                "speed": 100,
+                "distance": 100,
+                "time": 6000000,
+                "comment": "My first flight ever"
+            }
+        },
+        {
+            "id": 1,
+            "pilotId": 0,
+            "pilotName": "Konrad Guzior",
+            "date": "2020/11/16",
+            "file": ".IGC",
+            "details": {
+                "speed": 100,
+                "distance": 100,
+                "time": 6000000,
+                "comment": "My second flight ever"
+            }
+        },
+        {
+            "id": 2,
+            "pilotId": 0,
+            "pilotName": "Konrad Guzior",
+            "date": "2020/11/16",
+            "file": ".IGC",
+            "details": {
+                "speed": 100,
+                "distance": 100,
+                "time": 6000000,
+                "comment": "My third flight ever"
+            }
         },
         {
             "id": 3,
+            "pilotId": 1,
+            "pilotName": "Jonas Linros",
             "date": "2020/11/16",
             "file": ".IGC",
             "details": {
@@ -69,6 +145,8 @@
         },
         {
             "id": 4,
+            "pilotId": 1,
+            "pilotName": "Jonas Linros",
             "date": "2020/11/16",
             "file": ".IGC",
             "details": {
@@ -80,6 +158,8 @@
         },
         {
             "id": 5,
+            "pilotId": 1,
+            "pilotName": "Jonas Linros",
             "date": "2020/11/16",
             "file": ".IGC",
             "details": {
@@ -88,6 +168,98 @@
                 "time": 6000000,
                 "comment": "My third flight ever"
             }
+        }
+    ],
+    "news":[
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The new rst",
+            "article": "Let's get this party started!"
+        },
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The old rst",
+            "article": "I love it here!"
+        },
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The past rst",
+            "article": "Let's get this  started!"
+        },
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The new rst",
+            "article": "Let's get this party started!"
+        },
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The old rst",
+            "article": "I love it here!"
+        },
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The past rst",
+            "article": "Let's get this  started!"
         }
     ]
 }

@@ -1,265 +1,1106 @@
 {
     "users": [
-    {
-        "id": 0,
-        "name": "Konrad",
-        "birthDay": "1997/03/20",
-        "club": "ÖSFK",
-        "email": "konrad.guzior@gmail.com",
-        "profilePicture": "",
-        "flights": [
         {
-            "id": 0,
-            "pilotId": 0,
-            "date": "2020/11/16",
-            "file": ".IGC",
-            "details": {
-                "speed": 100,
-                "distance": 100,
-                "time": 6000000,
-                "comment": "My first flight ever"
-            }
+            "id": "ab6305f6-4f18-4e0c-9dee-80a17d41931e",
+            "name": "Wallace O'Reilly",
+            "birthDay": "1981-09-15T19:39:46.927Z",
+            "club": "ÖSFK",
+            "email": "Carmelo_Mante24@hotmail.com",
+            "profilePicture": "",
+            "flights": []
         },
         {
-            "id": 1,
-            "pilotId": 0,
-            "date": "2020/11/16",
-            "file": ".IGC",
-            "details": {
-                "speed": 100,
-                "distance": 100,
-                "time": 6000000,
-                "comment": "My second flight ever"
-            }
+            "id": "6299190f-c982-412b-9c45-577b53e16158",
+            "name": "Laurence Keebler",
+            "birthDay": "1963-03-06T02:10:52.110Z",
+            "club": "ÖSFK",
+            "email": "Clarabelle.Schroeder@gmail.com",
+            "profilePicture": "",
+            "flights": []
         },
         {
-            "id": 2,
-            "pilotId": 0,
-            "date": "2020/11/16",
-            "file": ".IGC",
-            "details": {
-                "speed": 100,
-                "distance": 100,
-                "time": 6000000,
-                "comment": "My third flight ever"
-            }
+            "id": "cf1d196a-e81e-47db-a896-c20fd21b476c",
+            "name": "Regina Watsica",
+            "birthDay": "1990-02-17T23:00:12.372Z",
+            "club": "ÖSFK",
+            "email": "Blaise64@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "887283b1-f16b-485c-966b-01ff1f320e2c",
+            "name": "Rudolph Cormier",
+            "birthDay": "1996-08-09T10:41:20.506Z",
+            "club": "ÖSFK",
+            "email": "Robin.DAmore@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "a417de06-a4b4-4d2d-9534-eeec5a041630",
+            "name": "Nathaniel Hackett",
+            "birthDay": "1979-12-29T16:04:15.293Z",
+            "club": "ÖSFK",
+            "email": "Dora.Miller@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "3a6d0869-f99e-4ea1-b4d1-4493fe2dcbe8",
+            "name": "Ginger Osinski",
+            "birthDay": "1986-06-29T14:24:27.107Z",
+            "club": "ÖSFK",
+            "email": "Uriel.Weimann7@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "b9f4afde-db65-4de0-8c1c-68b78dce26d8",
+            "name": "Darin Renner",
+            "birthDay": "1987-05-11T01:44:00.054Z",
+            "club": "ÖSFK",
+            "email": "Emory_Cole45@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "0216caf4-70d7-4c71-b68d-2e379545c75e",
+            "name": "Pete Hettinger",
+            "birthDay": "1999-07-10T05:56:42.161Z",
+            "club": "ÖSFK",
+            "email": "Rosalia.Schmeler6@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "0455cc36-edf9-4e8b-8429-1491b4e8acc0",
+            "name": "Caroline Connelly",
+            "birthDay": "1973-03-15T10:28:27.463Z",
+            "club": "ÖSFK",
+            "email": "Ethan77@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "0ed78d78-a85e-4854-bf08-9b96db5a8e3f",
+            "name": "Patsy Schultz",
+            "birthDay": "1964-08-03T16:49:47.909Z",
+            "club": "ÖSFK",
+            "email": "Eveline.Koepp45@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "db2e8de4-ae49-4916-9384-cd1029ee4d3b",
+            "name": "Teri Altenwerth DDS",
+            "birthDay": "1978-12-18T07:12:24.737Z",
+            "club": "ÖSFK",
+            "email": "Angela_Deckow24@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "7ebc1e06-4898-4ab5-b37e-b6c06928a81c",
+            "name": "Gene Flatley",
+            "birthDay": "1988-08-23T23:23:12.813Z",
+            "club": "ÖSFK",
+            "email": "Maxie_Reilly51@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "6ecad917-71bf-496c-8f75-b3761c8d1cd0",
+            "name": "Lorraine Zboncak",
+            "birthDay": "1979-05-07T23:26:15.473Z",
+            "club": "ÖSFK",
+            "email": "Chanelle62@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "ca909da9-60d9-4b90-a5bc-e8edcb09a9b5",
+            "name": "Rex Durgan",
+            "birthDay": "1971-04-21T00:10:22.842Z",
+            "club": "ÖSFK",
+            "email": "Kaia43@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "8dce3032-4ab6-4272-aeac-7551701066a4",
+            "name": "Annie Schneider",
+            "birthDay": "1975-04-20T00:26:15.073Z",
+            "club": "ÖSFK",
+            "email": "Broderick91@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "5be1d28f-43a2-4f76-a865-c7319af17831",
+            "name": "Meredith Schowalter",
+            "birthDay": "1970-09-19T15:48:26.585Z",
+            "club": "ÖSFK",
+            "email": "Dominique_Rohan@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "1941fe8b-cef9-40d7-9726-a60249284018",
+            "name": "Daniel Leannon",
+            "birthDay": "1964-07-25T21:34:12.971Z",
+            "club": "ÖSFK",
+            "email": "Breanne6@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "17e383a8-dce4-4612-beb1-f96084717892",
+            "name": "Jeanette Cassin",
+            "birthDay": "1975-10-27T02:30:32.004Z",
+            "club": "ÖSFK",
+            "email": "Helen_Langworth@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "c55560a5-bd7d-487a-9e97-29ede4a5f3b8",
+            "name": "Celia Stark",
+            "birthDay": "1962-06-26T12:50:17.067Z",
+            "club": "ÖSFK",
+            "email": "Dahlia.Collins12@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "e489b569-bb06-4e68-a106-8398572d45cf",
+            "name": "Betty Frami",
+            "birthDay": "1973-12-18T04:50:49.350Z",
+            "club": "ÖSFK",
+            "email": "Jalyn76@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "ad8574a3-400e-4893-89c1-ad58880bce65",
+            "name": "Bridget Pfannerstill",
+            "birthDay": "1967-10-16T04:27:37.198Z",
+            "club": "ÖSFK",
+            "email": "Dalton21@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "9299ad6a-ff45-4bbe-b069-95d9feacf763",
+            "name": "Nina Kihn",
+            "birthDay": "1973-05-17T22:42:52.948Z",
+            "club": "ÖSFK",
+            "email": "Vergie_Bernhard79@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "da6a9c7e-40fb-47ba-88e6-fac28c47f3b8",
+            "name": "Tom Stiedemann",
+            "birthDay": "1980-10-11T07:37:50.453Z",
+            "club": "ÖSFK",
+            "email": "Seamus39@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "d8eccabe-4290-4251-aaa4-5288dc089779",
+            "name": "Janet Carroll",
+            "birthDay": "1988-10-21T03:37:11.004Z",
+            "club": "ÖSFK",
+            "email": "Dejon_Kerluke36@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "fef8bc3c-36e0-4f32-86e2-0acf6e7fdef6",
+            "name": "Felix Berge",
+            "birthDay": "1979-02-13T21:13:15.162Z",
+            "club": "ÖSFK",
+            "email": "Gabe39@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "944e91e5-9cab-46b3-a6af-ea74514bebe0",
+            "name": "Tanya Rippin I",
+            "birthDay": "1967-09-18T12:31:44.188Z",
+            "club": "ÖSFK",
+            "email": "Duncan24@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "3bddfd4a-934d-46ea-80ee-8c82ba9f1a4d",
+            "name": "Jaime Boehm",
+            "birthDay": "1996-01-28T10:12:53.272Z",
+            "club": "ÖSFK",
+            "email": "Roberto.Fritsch21@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "69f2c0b9-7433-415d-abf8-5c401aa75c6c",
+            "name": "Jeremy D'Amore",
+            "birthDay": "1982-08-31T02:37:25.516Z",
+            "club": "ÖSFK",
+            "email": "Josefina.Ernser91@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "d0cb2afd-7c46-4166-a404-8c65c1e49330",
+            "name": "June Hermiston",
+            "birthDay": "1990-12-07T06:41:14.414Z",
+            "club": "ÖSFK",
+            "email": "Trinity_Koepp44@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "5eb778d3-6915-4f84-bf9b-96336706be0e",
+            "name": "Kristi Watsica",
+            "birthDay": "1976-04-13T02:44:28.848Z",
+            "club": "ÖSFK",
+            "email": "Einar21@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "c11e7363-0c40-4938-96da-a31cbf03231b",
+            "name": "Mrs. Jamie Rohan",
+            "birthDay": "1977-03-25T22:46:50.761Z",
+            "club": "ÖSFK",
+            "email": "Ana.Donnelly@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "a0017797-8cb1-4624-b040-7b8a0f7b9d53",
+            "name": "Fannie Mertz",
+            "birthDay": "1976-08-06T19:50:25.078Z",
+            "club": "ÖSFK",
+            "email": "Nina96@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "5e54ed6d-6846-4270-9194-5cdbb7d2a559",
+            "name": "Brandi Kilback",
+            "birthDay": "1965-08-06T00:12:29.990Z",
+            "club": "ÖSFK",
+            "email": "Jed_Kerluke@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "f68f0f24-3eb4-4978-8537-29256bd290b8",
+            "name": "Alyssa Rohan",
+            "birthDay": "1971-07-06T12:50:21.015Z",
+            "club": "ÖSFK",
+            "email": "Emilia_Bode89@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "2280c0e0-d4e8-4beb-97ed-f46bcdf6a4f1",
+            "name": "Penny Hegmann",
+            "birthDay": "1994-04-22T18:20:41.020Z",
+            "club": "ÖSFK",
+            "email": "Myron.Fahey@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "f704cd2e-3398-4d12-b008-3fc3515539ec",
+            "name": "Delia Bradtke",
+            "birthDay": "1973-02-15T06:36:49.763Z",
+            "club": "ÖSFK",
+            "email": "Korbin_Anderson@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "db8ebfd6-d619-483a-ac4d-5cd449d7008f",
+            "name": "Rochelle Greenholt",
+            "birthDay": "1966-11-13T02:48:21.794Z",
+            "club": "ÖSFK",
+            "email": "Tyrell_Heller79@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "c0545791-6c04-478c-9cd1-f8faa908b0f7",
+            "name": "Whitney Heathcote Sr.",
+            "birthDay": "1968-01-29T23:37:19.244Z",
+            "club": "ÖSFK",
+            "email": "Suzanne_Gutkowski@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "6cd64d0f-b95d-4cca-a443-4f93c2be890b",
+            "name": "Alejandro Nolan",
+            "birthDay": "1981-06-05T19:13:20.453Z",
+            "club": "ÖSFK",
+            "email": "Mark_McCullough32@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "4223ed24-7e3b-4d19-a963-b94be97553c1",
+            "name": "Ricardo Abbott",
+            "birthDay": "1995-05-20T14:52:51.419Z",
+            "club": "ÖSFK",
+            "email": "Meredith_Wehner17@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "dec6201c-da00-49f9-992f-bf6489465a74",
+            "name": "Jan Thiel",
+            "birthDay": "1976-03-24T09:20:33.101Z",
+            "club": "ÖSFK",
+            "email": "Myrtice_Douglas@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "69d2ba7a-e652-4880-a4c1-f14990256134",
+            "name": "Miguel Rutherford",
+            "birthDay": "1994-11-19T09:54:01.710Z",
+            "club": "ÖSFK",
+            "email": "Calista_Robel47@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "67b99063-442a-4976-b083-723fbeeff54c",
+            "name": "Henrietta O'Kon",
+            "birthDay": "1961-10-29T17:00:38.136Z",
+            "club": "ÖSFK",
+            "email": "Dovie.Nienow33@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "7b1d0a71-fb3e-459b-8fb5-f5d92b4cb241",
+            "name": "Dr. Kari Bogisich",
+            "birthDay": "1990-05-23T06:21:59.003Z",
+            "club": "ÖSFK",
+            "email": "Forrest.Renner@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "2d725a9c-af41-483e-afaf-2e73b1b2c333",
+            "name": "Karla Morissette",
+            "birthDay": "1987-08-11T23:02:52.665Z",
+            "club": "ÖSFK",
+            "email": "Kaleb.Kozey29@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "19e3e8da-5a9a-4f33-b4d1-85f5a448fb6e",
+            "name": "Monique Kuvalis",
+            "birthDay": "1969-08-18T15:37:38.353Z",
+            "club": "ÖSFK",
+            "email": "Hubert_Monahan@gmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "90e5d249-c8f6-484f-959d-83211107ffce",
+            "name": "Dr. Willis Heller",
+            "birthDay": "1993-08-04T07:42:32.130Z",
+            "club": "ÖSFK",
+            "email": "Grover_Sanford90@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "c7ba5ce4-a2fd-4d71-bb2b-ef09e734464b",
+            "name": "Sabrina Abshire",
+            "birthDay": "1965-11-26T06:36:27.329Z",
+            "club": "ÖSFK",
+            "email": "Kiley.Gottlieb@yahoo.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "fd5e2980-3133-4c2e-8fa6-964770ea607f",
+            "name": "Armando Vandervort",
+            "birthDay": "1983-02-06T00:33:07.091Z",
+            "club": "ÖSFK",
+            "email": "Laisha_Davis@hotmail.com",
+            "profilePicture": "",
+            "flights": []
+        },
+        {
+            "id": "7c92a256-71b7-4992-bb9d-215476356963",
+            "name": "Amelia Williamson",
+            "birthDay": "1974-01-23T22:30:09.313Z",
+            "club": "ÖSFK",
+            "email": "Wyatt98@hotmail.com",
+            "profilePicture": "",
+            "flights": []
         }
-    ]
-    },
-    {
-        "id": 1,
-        "name": "Jonas",
-        "birthDay": "1997/10/24",
-        "club": "ÖSFK",
-        "email": "jonas.linkan@gmail.com",
-        "profilePicture": "",
-        "flights": [
-            {
-                "id": 3,
-                "date": "2020/11/16",
-                "file": ".IGC",
-                "details": {
-                    "speed": 100,
-                    "distance": 100,
-                    "time": 6000000,
-                    "comment": "My first flight ever"
-                }
-            },
-            {
-                "id": 4,
-                "date": "2020/11/16",
-                "file": ".IGC",
-                "details": {
-                    "speed": 100,
-                    "distance": 100,
-                    "time": 6000000,
-                    "comment": "My second flight ever"
-                }
-            },
-            {
-                "id": 5,
-                "date": "2020/11/16",
-                "file": ".IGC",
-                "details": {
-                    "speed": 100,
-                    "distance": 100,
-                    "time": 6000000,
-                    "comment": "My third flight ever"
-                }
-            }
-        ]
-    }
     ],
     "flights": [
         {
-            "id": 0,
-            "pilotId": 0,
-            "pilotName": "Konrad Guzior",
-            "date": "2020/11/16",
-            "file": ".IGC",
+            "id": "9f8438dc-3e11-47ab-9614-b51593d73149",
+            "pilotId": "b8b0f355-d82f-4067-90ad-93697d1d9004",
+            "pilotName": "Daniel Schaden",
+            "date": "2020-05-24T18:05:54.725Z",
+            "file": ".igc",
             "details": {
-                "speed": 100,
-                "distance": 100,
-                "time": 6000000,
-                "comment": "My first flight ever"
+                "speed": 78,
+                "distance": 758,
+                "height": 979,
+                "comment": "no comment"
             }
         },
         {
-            "id": 1,
-            "pilotId": 0,
-            "pilotName": "Konrad Guzior",
-            "date": "2020/11/16",
-            "file": ".IGC",
+            "id": "46f20cd2-911b-4c4b-8aa2-fca46b2ef5de",
+            "pilotId": "47320aea-de2c-4878-b7a6-b7d170cc8342",
+            "pilotName": "Sherry Padberg",
+            "date": "2020-09-28T14:47:45.690Z",
+            "file": ".igc",
             "details": {
-                "speed": 100,
-                "distance": 100,
-                "time": 6000000,
-                "comment": "My second flight ever"
+                "speed": 76,
+                "distance": 717,
+                "height": 5615,
+                "comment": "no comment"
             }
         },
         {
-            "id": 2,
-            "pilotId": 0,
-            "pilotName": "Konrad Guzior",
-            "date": "2020/11/16",
-            "file": ".IGC",
+            "id": "21354082-0121-4f50-9c7b-129dc0e373f2",
+            "pilotId": "6a4223f3-2f6d-4ec3-bc43-17826083367b",
+            "pilotName": "Rachel Collier",
+            "date": "2020-09-16T18:09:07.305Z",
+            "file": ".igc",
             "details": {
-                "speed": 100,
-                "distance": 100,
-                "time": 6000000,
-                "comment": "My third flight ever"
+                "speed": 114,
+                "distance": 740,
+                "height": 6556,
+                "comment": "no comment"
             }
         },
         {
-            "id": 3,
-            "pilotId": 1,
-            "pilotName": "Jonas Linros",
-            "date": "2020/11/16",
-            "file": ".IGC",
+            "id": "0f64a90b-89a1-4d3e-8501-ca4c3383f2db",
+            "pilotId": "77fad7bd-c813-4e8e-96b1-3aac9acba018",
+            "pilotName": "Ms. Todd Kohler",
+            "date": "2020-11-10T10:06:30.573Z",
+            "file": ".igc",
             "details": {
-                "speed": 100,
-                "distance": 100,
-                "time": 6000000,
-                "comment": "My first flight ever"
+                "speed": 110,
+                "distance": 196,
+                "height": 6017,
+                "comment": "no comment"
             }
         },
         {
-            "id": 4,
-            "pilotId": 1,
-            "pilotName": "Jonas Linros",
-            "date": "2020/11/16",
-            "file": ".IGC",
+            "id": "4758a73b-7857-4cc6-837d-83dfdf78f172",
+            "pilotId": "ff9ea99c-2f98-4b6f-9bee-a41e4cb8b452",
+            "pilotName": "Dixie Champlin",
+            "date": "2020-06-08T14:12:34.621Z",
+            "file": ".igc",
             "details": {
-                "speed": 100,
-                "distance": 100,
-                "time": 6000000,
-                "comment": "My second flight ever"
+                "speed": 68,
+                "distance": 391,
+                "height": 1288,
+                "comment": "no comment"
             }
         },
         {
-            "id": 5,
-            "pilotId": 1,
-            "pilotName": "Jonas Linros",
-            "date": "2020/11/16",
-            "file": ".IGC",
+            "id": "86ff3976-f242-4fa6-903d-226551e3b794",
+            "pilotId": "a9fdbacd-2a24-46e1-8529-7e6e8fba0701",
+            "pilotName": "Ronald Koss",
+            "date": "2020-04-17T20:50:14.462Z",
+            "file": ".igc",
             "details": {
-                "speed": 100,
-                "distance": 100,
-                "time": 6000000,
-                "comment": "My third flight ever"
+                "speed": 72,
+                "distance": 872,
+                "height": 500,
+                "comment": "no comment"
             }
-        }
-    ],
-    "news":[
-        {
-            "id": 0,
-            "date": "2020/11/16",
-            "author": "Konrad Guzior",
-            "edits": [
-                {
-                    "date": "2020/11/16",
-                    "author": "Konrad Guzior",
-                    "reason": "Why not",
-                    "save": "asd"
-                }
-            ],
-            "topic": "The new rst",
-            "article": "Let's get this party started!"
         },
         {
-            "id": 0,
-            "date": "2020/11/16",
-            "author": "Konrad Guzior",
-            "edits": [
-                {
-                    "date": "2020/11/16",
-                    "author": "Konrad Guzior",
-                    "reason": "Why not",
-                    "save": "asd"
-                }
-            ],
-            "topic": "The old rst",
-            "article": "I love it here!"
+            "id": "dab280c8-94aa-4d78-9103-aa45582e93fd",
+            "pilotId": "7668b201-6d5f-468d-94a3-d824b6d3ea68",
+            "pilotName": "Mary Okuneva",
+            "date": "2020-01-20T14:03:20.744Z",
+            "file": ".igc",
+            "details": {
+                "speed": 73,
+                "distance": 391,
+                "height": 4104,
+                "comment": "no comment"
+            }
         },
         {
-            "id": 0,
-            "date": "2020/11/16",
-            "author": "Konrad Guzior",
-            "edits": [
-                {
-                    "date": "2020/11/16",
-                    "author": "Konrad Guzior",
-                    "reason": "Why not",
-                    "save": "asd"
-                }
-            ],
-            "topic": "The past rst",
-            "article": "Let's get this  started!"
+            "id": "88a199c8-5e69-433d-9369-017b9aeebc12",
+            "pilotId": "b8829e37-85a9-4af1-a8ec-9f69cb81112b",
+            "pilotName": "Wm Senger",
+            "date": "2020-05-23T05:43:00.042Z",
+            "file": ".igc",
+            "details": {
+                "speed": 130,
+                "distance": 336,
+                "height": 3891,
+                "comment": "no comment"
+            }
         },
         {
-            "id": 0,
-            "date": "2020/11/16",
-            "author": "Konrad Guzior",
-            "edits": [
-                {
-                    "date": "2020/11/16",
-                    "author": "Konrad Guzior",
-                    "reason": "Why not",
-                    "save": "asd"
-                }
-            ],
-            "topic": "The new rst",
-            "article": "Let's get this party started!"
+            "id": "f31baf55-3320-488d-896b-13e8e5b797b1",
+            "pilotId": "38cad497-e833-4995-953d-f2571dbd5c5f",
+            "pilotName": "Daisy Lindgren DVM",
+            "date": "2020-02-17T02:38:58.745Z",
+            "file": ".igc",
+            "details": {
+                "speed": 42,
+                "distance": 194,
+                "height": 5363,
+                "comment": "no comment"
+            }
         },
         {
-            "id": 0,
-            "date": "2020/11/16",
-            "author": "Konrad Guzior",
-            "edits": [
-                {
-                    "date": "2020/11/16",
-                    "author": "Konrad Guzior",
-                    "reason": "Why not",
-                    "save": "asd"
-                }
-            ],
-            "topic": "The old rst",
-            "article": "I love it here!"
+            "id": "406a6091-1414-4bc6-9dd6-e575d4fc3134",
+            "pilotId": "d8d6728e-3204-4d57-aa26-0e6d7cc74dc5",
+            "pilotName": "Johnathan O'Connell",
+            "date": "2020-09-14T11:47:16.024Z",
+            "file": ".igc",
+            "details": {
+                "speed": 160,
+                "distance": 814,
+                "height": 2498,
+                "comment": "no comment"
+            }
         },
         {
-            "id": 0,
-            "date": "2020/11/16",
-            "author": "Konrad Guzior",
-            "edits": [
-                {
-                    "date": "2020/11/16",
-                    "author": "Konrad Guzior",
-                    "reason": "Why not",
-                    "save": "asd"
-                }
-            ],
-            "topic": "The past rst",
-            "article": "Let's get this  started!"
+            "id": "841fb851-4443-4188-a35b-f24f994e45c2",
+            "pilotId": "bcfcdbc0-78e0-469b-bbeb-b3f900c7d34b",
+            "pilotName": "Marjorie Streich",
+            "date": "2020-04-20T20:54:27.827Z",
+            "file": ".igc",
+            "details": {
+                "speed": 139,
+                "distance": 443,
+                "height": 5733,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "aaec1b32-b9b7-4e7a-b222-3b3bc96d5d05",
+            "pilotId": "59bd2b67-7fb6-4742-a29e-0418fba0f86c",
+            "pilotName": "Herman Powlowski",
+            "date": "2020-03-11T12:04:14.904Z",
+            "file": ".igc",
+            "details": {
+                "speed": 135,
+                "distance": 667,
+                "height": 2124,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "d13f9548-6a14-4e73-a2aa-537850ee677c",
+            "pilotId": "3dbcf496-10ea-446f-b374-246aa0882eb0",
+            "pilotName": "Eric Stracke",
+            "date": "2020-09-20T16:02:37.291Z",
+            "file": ".igc",
+            "details": {
+                "speed": 45,
+                "distance": 791,
+                "height": 5916,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "0c62a97e-a3e9-459c-8ba6-0af86a8cbcfd",
+            "pilotId": "de2b76ff-58bd-48e9-b84b-8799848efbf7",
+            "pilotName": "Archie Tromp",
+            "date": "2020-02-15T13:46:05.310Z",
+            "file": ".igc",
+            "details": {
+                "speed": 77,
+                "distance": 413,
+                "height": 2595,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "f7d94bda-412e-46fe-b61f-3347e2771036",
+            "pilotId": "d2ab0e2f-f776-402d-b8cf-d3ea7f037599",
+            "pilotName": "Cristina Treutel",
+            "date": "2020-05-10T20:38:24.102Z",
+            "file": ".igc",
+            "details": {
+                "speed": 47,
+                "distance": 493,
+                "height": 5432,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "af61f5ac-9774-4cc4-86e7-76327c7c923e",
+            "pilotId": "3fa63f8b-2871-4560-b7ce-7defb94acfc4",
+            "pilotName": "Della Sawayn IV",
+            "date": "2020-04-22T23:33:34.538Z",
+            "file": ".igc",
+            "details": {
+                "speed": 105,
+                "distance": 95,
+                "height": 6174,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "509d9709-4267-4541-8564-5ed3a339d7a0",
+            "pilotId": "8cea3aa7-62b6-4b4f-b167-89ce736ce90f",
+            "pilotName": "Mrs. Lydia Schaefer",
+            "date": "2020-11-02T03:34:14.127Z",
+            "file": ".igc",
+            "details": {
+                "speed": 122,
+                "distance": 687,
+                "height": 1851,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "5899745e-58bf-4b5c-aca5-586a5ce0c343",
+            "pilotId": "fe45ef82-e262-4dcf-9da3-b76ba4fd16fa",
+            "pilotName": "Wanda Aufderhar PhD",
+            "date": "2020-03-10T04:25:46.002Z",
+            "file": ".igc",
+            "details": {
+                "speed": 130,
+                "distance": 704,
+                "height": 2048,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "db7a4ad2-fab2-4fba-92d1-87ab60379d52",
+            "pilotId": "e47f17a6-4dc4-440b-8791-65e9ef12e13d",
+            "pilotName": "Ivan Hills",
+            "date": "2020-06-24T04:38:35.722Z",
+            "file": ".igc",
+            "details": {
+                "speed": 123,
+                "distance": 28,
+                "height": 433,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "c451420f-a831-479f-9b9c-8a903e115bc8",
+            "pilotId": "ba211c31-647d-40d2-bd57-612609ab547b",
+            "pilotName": "Franklin Bins",
+            "date": "2020-06-03T03:23:32.504Z",
+            "file": ".igc",
+            "details": {
+                "speed": 117,
+                "distance": 374,
+                "height": 2732,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "882f92a3-60b3-4392-b3cc-46ddb2457c78",
+            "pilotId": "49cf6c99-531c-4202-bd26-0788ba00ba84",
+            "pilotName": "Stella Mraz",
+            "date": "2020-05-03T00:05:23.759Z",
+            "file": ".igc",
+            "details": {
+                "speed": 119,
+                "distance": 578,
+                "height": 4169,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "847dd452-c434-4249-aa2c-293c2fb9b08e",
+            "pilotId": "f0821a49-6674-4498-b5d8-73820147fda9",
+            "pilotName": "Nettie Grant I",
+            "date": "2020-07-18T05:17:10.278Z",
+            "file": ".igc",
+            "details": {
+                "speed": 116,
+                "distance": 408,
+                "height": 2429,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "78be1f80-a9ff-438d-8cf2-de6bc11ff1ee",
+            "pilotId": "b9f046b5-f7d5-4349-ba46-d343fde79144",
+            "pilotName": "June Champlin",
+            "date": "2020-06-21T00:36:54.494Z",
+            "file": ".igc",
+            "details": {
+                "speed": 93,
+                "distance": 500,
+                "height": 2325,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "42c3489c-847c-40b2-95f7-600ab80b4561",
+            "pilotId": "2660b400-9b58-4450-9530-a5f7151f03b8",
+            "pilotName": "Frankie Connelly",
+            "date": "2020-01-02T10:51:41.266Z",
+            "file": ".igc",
+            "details": {
+                "speed": 152,
+                "distance": 782,
+                "height": 6446,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "24c7852e-158f-4688-acd2-8275c302c954",
+            "pilotId": "044fa1b2-fb1c-40ee-b41a-05961a462fce",
+            "pilotName": "Jason Kovacek",
+            "date": "2020-09-02T02:21:05.303Z",
+            "file": ".igc",
+            "details": {
+                "speed": 47,
+                "distance": 65,
+                "height": 4651,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "62c1b360-4d8e-4bfd-a8b8-1ce864f740e5",
+            "pilotId": "9469d49d-8a10-4357-9475-545ec99e42cd",
+            "pilotName": "Bobbie Jacobs",
+            "date": "2020-03-23T04:36:19.318Z",
+            "file": ".igc",
+            "details": {
+                "speed": 80,
+                "distance": 351,
+                "height": 1296,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "7996427d-ecca-4763-b04e-346fc935c9e6",
+            "pilotId": "e5e9076a-75aa-4c45-a347-f0ddaf08e625",
+            "pilotName": "Lonnie Bayer",
+            "date": "2020-12-06T23:33:48.026Z",
+            "file": ".igc",
+            "details": {
+                "speed": 38,
+                "distance": 294,
+                "height": 4243,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "4c9fb6d6-be83-4fff-9b61-6b840f864165",
+            "pilotId": "ef7dd846-aa6e-4e38-9b1a-e6c2013818da",
+            "pilotName": "Kara Zulauf",
+            "date": "2020-10-29T12:18:56.059Z",
+            "file": ".igc",
+            "details": {
+                "speed": 150,
+                "distance": 46,
+                "height": 4752,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "651e2149-1db7-4d20-8cd5-e385db9af2f0",
+            "pilotId": "89a9842a-ae9a-4bb7-90b8-323e3795e5c4",
+            "pilotName": "Linda Harris",
+            "date": "2020-08-25T05:01:40.402Z",
+            "file": ".igc",
+            "details": {
+                "speed": 142,
+                "distance": 519,
+                "height": 2901,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "20236418-a567-4bee-8f6f-a6198a794747",
+            "pilotId": "5f02cf3d-42cb-4d88-96c9-ad8f7a947360",
+            "pilotName": "Elisa Lakin",
+            "date": "2020-05-14T03:39:51.562Z",
+            "file": ".igc",
+            "details": {
+                "speed": 60,
+                "distance": 405,
+                "height": 1433,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "fe01c377-9d47-4911-aef8-032974c401c7",
+            "pilotId": "3aa24663-e2fe-4a72-8959-86e0d6a4a42f",
+            "pilotName": "Mario Turner PhD",
+            "date": "2020-09-02T15:03:31.454Z",
+            "file": ".igc",
+            "details": {
+                "speed": 57,
+                "distance": 140,
+                "height": 2637,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "64cfd35d-9ba5-495e-bd2e-1e6bcb5e125a",
+            "pilotId": "8b663176-65b5-442d-a939-939975b5d525",
+            "pilotName": "Helen Batz",
+            "date": "2020-11-20T20:37:17.313Z",
+            "file": ".igc",
+            "details": {
+                "speed": 50,
+                "distance": 835,
+                "height": 6336,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "5e8d875b-0fcb-49d3-a29c-816119534377",
+            "pilotId": "ca19100e-29c8-410c-be6d-53daa7d6d16a",
+            "pilotName": "Dr. Jackie Jakubowski",
+            "date": "2020-02-14T19:01:44.961Z",
+            "file": ".igc",
+            "details": {
+                "speed": 63,
+                "distance": 399,
+                "height": 5754,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "6df4f2c8-a478-44e9-8595-5fb2c8735109",
+            "pilotId": "21245694-8836-4b02-9932-d1811fba07a8",
+            "pilotName": "Mr. Laurence Wintheiser",
+            "date": "2020-09-20T21:45:16.088Z",
+            "file": ".igc",
+            "details": {
+                "speed": 115,
+                "distance": 837,
+                "height": 1322,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "fb64caa7-9e01-4961-bcf0-83080812786b",
+            "pilotId": "d1179693-a9b4-4ee0-80a9-5df2c93b4bb0",
+            "pilotName": "Helen Schmidt",
+            "date": "2020-03-10T02:23:49.822Z",
+            "file": ".igc",
+            "details": {
+                "speed": 153,
+                "distance": 570,
+                "height": 6009,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "27d4949f-9e5f-4cdf-88ee-38ff9112870f",
+            "pilotId": "d9217731-74e3-4ba7-9285-6376f675c896",
+            "pilotName": "Janice Ryan",
+            "date": "2020-04-30T23:05:54.790Z",
+            "file": ".igc",
+            "details": {
+                "speed": 31,
+                "distance": 894,
+                "height": 2858,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "86f198b6-bc1d-40e1-8c5c-f08beec4d973",
+            "pilotId": "bf10327b-a130-48e5-a2e9-0df2c69fda1b",
+            "pilotName": "Maria Hahn",
+            "date": "2020-06-24T08:39:39.696Z",
+            "file": ".igc",
+            "details": {
+                "speed": 31,
+                "distance": 315,
+                "height": 3647,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "b1cf2a42-cbae-43ac-9ddf-ef6941edbbb3",
+            "pilotId": "a338a3b8-c522-4fe1-902e-1d53f2d4f3fb",
+            "pilotName": "Allison Glover",
+            "date": "2020-12-03T21:56:07.035Z",
+            "file": ".igc",
+            "details": {
+                "speed": 144,
+                "distance": 168,
+                "height": 786,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "ae681e9c-b5ba-465b-b1bf-cd75f2306081",
+            "pilotId": "62c3363c-d5b7-4dbf-ba07-326f45969fe6",
+            "pilotName": "Dexter Quitzon",
+            "date": "2020-02-12T05:37:59.717Z",
+            "file": ".igc",
+            "details": {
+                "speed": 77,
+                "distance": 788,
+                "height": 228,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "4e396193-7f64-47d2-8a05-e96046513ba1",
+            "pilotId": "e21816e2-cced-4094-a549-ce63da35b1da",
+            "pilotName": "Sandy Reichert II",
+            "date": "2020-06-30T10:54:06.313Z",
+            "file": ".igc",
+            "details": {
+                "speed": 125,
+                "distance": 750,
+                "height": 1710,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "719c0850-7ce7-4ebd-a831-66da3bf47265",
+            "pilotId": "26222d2d-5173-4f2a-be01-1d07eb81e772",
+            "pilotName": "Allison Lind",
+            "date": "2020-03-06T20:34:05.957Z",
+            "file": ".igc",
+            "details": {
+                "speed": 52,
+                "distance": 467,
+                "height": 1018,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "e1dab8ea-10d2-4a53-b6ed-1bf8da554736",
+            "pilotId": "eb56b646-4834-4312-861e-73b7c268cc87",
+            "pilotName": "Frank Abbott",
+            "date": "2020-08-18T21:12:44.738Z",
+            "file": ".igc",
+            "details": {
+                "speed": 52,
+                "distance": 703,
+                "height": 6863,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "180baeeb-92d1-4247-a00a-81f583e6a9f2",
+            "pilotId": "33c4cb55-fc52-477a-b95c-780721a13ab8",
+            "pilotName": "Natalie Lang",
+            "date": "2020-07-31T04:01:11.117Z",
+            "file": ".igc",
+            "details": {
+                "speed": 43,
+                "distance": 215,
+                "height": 4824,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "88e6a7b4-46dd-4473-8742-edd3dc53db2a",
+            "pilotId": "e4906f32-93a3-494c-87ef-c381fc42941f",
+            "pilotName": "Stephanie Nicolas",
+            "date": "2020-05-20T08:39:47.489Z",
+            "file": ".igc",
+            "details": {
+                "speed": 30,
+                "distance": 400,
+                "height": 3422,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "1b5c92b4-075b-41f7-8d86-dad0d9b02fac",
+            "pilotId": "bf3eca5e-6b5d-43e9-8d07-404ae9d79a6b",
+            "pilotName": "Brent Herzog",
+            "date": "2020-08-06T01:37:40.694Z",
+            "file": ".igc",
+            "details": {
+                "speed": 39,
+                "distance": 783,
+                "height": 199,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "64995708-efbe-4a14-a2f2-3712624a707a",
+            "pilotId": "c89e5b63-39fe-49b4-ad1d-02ea09c6f879",
+            "pilotName": "Shari Langworth",
+            "date": "2020-08-29T03:37:48.150Z",
+            "file": ".igc",
+            "details": {
+                "speed": 55,
+                "distance": 508,
+                "height": 4987,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "3c885a15-a6fc-4d70-a45d-438069dbb8d1",
+            "pilotId": "c804952e-a787-4e52-a937-44949585d998",
+            "pilotName": "Carole Graham",
+            "date": "2020-03-29T08:02:32.905Z",
+            "file": ".igc",
+            "details": {
+                "speed": 140,
+                "distance": 532,
+                "height": 2119,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "fc884ee1-a92c-478e-bbf3-b19d62641a9b",
+            "pilotId": "d6da899c-58a4-4f0b-960b-c0c441d3568b",
+            "pilotName": "Eva Nienow",
+            "date": "2020-08-13T20:32:57.424Z",
+            "file": ".igc",
+            "details": {
+                "speed": 155,
+                "distance": 445,
+                "height": 4248,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "88c0d625-6288-470c-bb0d-1c29405134bd",
+            "pilotId": "6a4fb5be-d46c-4d82-9daf-5aa1e25d4a2b",
+            "pilotName": "Domingo Jones",
+            "date": "2020-03-13T19:00:33.891Z",
+            "file": ".igc",
+            "details": {
+                "speed": 25,
+                "distance": 186,
+                "height": 4109,
+                "comment": "no comment"
+            }
+        },
+        {
+            "id": "a22037c4-1430-40ec-80ca-420c8756c69c",
+            "pilotId": "0d8410af-041d-4d15-97e1-c22a7c34c4c4",
+            "pilotName": "Jacquelyn Howell",
+            "date": "2020-02-13T12:28:34.788Z",
+            "file": ".igc",
+            "details": {
+                "speed": 38,
+                "distance": 40,
+                "height": 6740,
+                "comment": "no comment"
+            }
         }
     ]
 }
