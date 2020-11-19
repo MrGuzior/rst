@@ -22,36 +22,20 @@ const ResultList = ({list}) => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                    <td>1</td>
-                        <td>Konrad Guzior</td>
-                        <td className='responsive-remove1'>ÖSFK</td>
-                        <td className='responsive-remove2'>Junior</td>
-                        <td>775</td>
-                        <td>134km</td>
-                        <td>100km/h</td>
-                        <td>2202</td>
-                    </tr>
-                    <tr>
-                    <td>2</td>
-                        <td>Konrad Konrad</td>
-                        <td className='responsive-remove1'>ÖSFK</td>
-                        <td className='responsive-remove2'>Junior</td>
-                        <td>775</td>
-                        <td>134km</td>
-                        <td>100km/h</td>
-                        <td>2202</td>
-                    </tr>
-                    <tr>
-                    <td>3</td>
-                        <td>Guzior Guzior</td>
-                        <td className='responsive-remove1'>ÖSFK</td>
-                        <td className='responsive-remove2'>Junior</td>
-                        <td>775</td>
-                        <td>134km</td>
-                        <td>100km/h</td>
-                        <td>2202</td>
-                    </tr>
+                    {flights.map((flight,id)=>{
+                        return(
+                            <tr>
+                                <td>{id+1}</td>
+                                <td>{flight.pilotName}</td>
+                                <td className='responsive-remove1'>ÖSFK</td>
+                                <td className='responsive-remove2'>Junior</td>
+                                <td>{flight.details.height}m</td>
+                                <td>{flight.details.distance}km</td>
+                                <td>{flight.details.speed}km/s</td>
+                                <td>2523</td>
+                            </tr>
+                        )
+                    })}
                 </tbody>
             </Table>
         </section>

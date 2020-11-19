@@ -1102,5 +1102,97 @@
                 "comment": "no comment"
             }
         }
+    ],
+    "news":[
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The new rst",
+            "article": "Let's get this party started!"
+        },
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The old rst",
+            "article": "I love it here!"
+        },
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The past rst",
+            "article": "Let's get this  started!"
+        },
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The new rst",
+            "article": "Let's get this party started!"
+        },
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The old rst",
+            "article": "I love it here!"
+        },
+        {
+            "id": 0,
+            "date": "2020/11/16",
+            "author": "Konrad Guzior",
+            "edits": [
+                {
+                    "date": "2020/11/16",
+                    "author": "Konrad Guzior",
+                    "reason": "Why not",
+                    "save": "asd"
+                }
+            ],
+            "topic": "The past rst",
+            "article": "Let's get this  started!"
+        }
     ]
 }
