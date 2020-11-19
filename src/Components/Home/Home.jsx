@@ -5,7 +5,6 @@ import News from '../News/News'
 const Home = () => {
     return(
         <section className='home'>
-            <News/>
                 <ResultList/>
                 <ResultList/>
                 <ResultList/>

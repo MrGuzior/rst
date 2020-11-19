@@ -2,6 +2,7 @@ import React from 'react'
 import {useSelector} from 'react-redux'
 import {selectData} from '../../store/appSlice'
 import {Table} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 const ResultList = ({list}) => {
     const {flights} = useSelector(selectData)
@@ -25,14 +26,14 @@ const ResultList = ({list}) => {
                     {flights.map((flight,id)=>{
                         return(
                             <tr>
-                                <td>{id+1}</td>
-                                <td>{flight.pilotName}</td>
-                                <td className='responsive-remove1'>ÖSFK</td>
-                                <td className='responsive-remove2'>Junior</td>
-                                <td>{flight.details.height}m</td>
-                                <td>{flight.details.distance}km</td>
-                                <td>{flight.details.speed}km/s</td>
-                                <td>2523</td>
+                                    <td><Link to={`/flights/${flight.id}`}>{id+1}</Link></td>
+                                    <td>{flight.pilotName}</td>
+                                    <td className='responsive-remove1'>ÖSFK</td>
+                                    <td className='responsive-remove2'>Junior</td>
+                                    <td>{flight.details.height}m</td>
+                                    <td>{flight.details.distance}km</td>
+                                    <td>{flight.details.speed}km/s</td>
+                                    <td>2523</td>
                             </tr>
                         )
                     })}
