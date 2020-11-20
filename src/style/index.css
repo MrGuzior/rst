@@ -82,3 +82,12 @@ code {
   object-fit: cover;
   background-color: rgb(46, 85, 255);
 }
+
+.result-navigation{
+  display: inline-block;
+}
+
+@media only screen and (max-width: 557px){
+  .class-select{
+  }
+}
