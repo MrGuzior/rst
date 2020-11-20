@@ -16,14 +16,14 @@ const navbar = () => {
                     <Nav className="mr-auto">
                     
                     <NavDropdown title="Resultat" id="collasible-nav-dropdown">
-                        <NavDropdown.Item><Link to='results'>Översikt</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='results/individual'>Individuellt</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='results/individual-female'>Individuellt Dam</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='results/retro'>Retro-cupen</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='results/fai'>FAI-cupen</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='results/clubb'>Klubbkampen</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='results/team'>Lag</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='results/flights'>Flygningar</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/results'>Översikt</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/results/individual'>Individuellt</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/results/individual-female'>Individuellt Dam</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/results/retro'>Retro-cupen</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/results/fai'>FAI-cupen</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/results/clubb'>Klubbkampen</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/results/team'>Lag</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/results/flights'>Flygningar</Link></NavDropdown.Item>
                     </NavDropdown>
 
 
