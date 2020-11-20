@@ -83,11 +83,18 @@ code {
   background-color: rgb(46, 85, 255);
 }
 
-.result-navigation{
-  display: inline-block;
-}
+
+
+  .show-when-mobile{
+    display: none;
+  }
 
 @media only screen and (max-width: 557px){
-  .class-select{
+  .hide-when-mobile{
+    display:none;
+  }
+  .show-when-mobile{
+    display: inline-block;
+    width: 100%;
   }
 }
