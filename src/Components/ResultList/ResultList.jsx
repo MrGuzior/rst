@@ -4,7 +4,7 @@ import {selectData} from '../../store/appSlice'
 import {Table} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 
-const ResultList = ({list}) => {
+const ResultList = () => {
     const {flights} = useSelector(selectData)
 
     return(
