@@ -26,7 +26,7 @@ const Results = () => {
                             </Form.Group>
 
                 <Navbar  className='p-0'>
-                    <Nav className="mr-auto" fill variant="tabs" >
+                    <Nav className="mr-auto" fill variant="tabs" defaultActiveKey="kombination" >
                         <Nav>
                             <Form.Group className='mr-0 hide-when-mobile' controlId="exampleForm.ControlSelect1" >
                                 <Form.Control as="select">
