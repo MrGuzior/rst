@@ -27,11 +27,11 @@ const Results = () => {
             <Navbar className='p-0'>
                 <Nav className="mr-auto " fill variant="pills" >
 
-                    <Nav.Link>Kombination</Nav.Link>
-                    <Nav.Link>Höjd</Nav.Link>
-                    <Nav.Link>Distans</Nav.Link>
-                    <Nav.Link>Ack Distans</Nav.Link>
-                    <Nav.Link>Hastighet</Nav.Link>
+                    <Nav.Link className='px-2'>Kombination</Nav.Link>
+                    <Nav.Link className='px-2'>Höjd</Nav.Link>
+                    <Nav.Link className='px-2'>Distans</Nav.Link>
+                    <Nav.Link className='px-1'>Ack Distans</Nav.Link>
+                    <Nav.Link className='px-2'>Hastighet</Nav.Link>
                         
                         
 
