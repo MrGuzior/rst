@@ -4,7 +4,8 @@ import ResultList from '../ResultList/ResultList'
 import {
     Navbar,
     Nav,
-    NavDropdown
+    NavDropdown,
+    Form
 } from 'react-bootstrap'
 
 const Results = () => {
@@ -13,24 +14,24 @@ const Results = () => {
     return(
         <section className="results">
 
+                    <Form.Group controlId="exampleForm.ControlSelect1">
+                        <Form.Control as="select">
+                        <option>Allmän (Totalt)</option>
+                        <option>Klass 1</option>
+                        <option>Klass 2</option>
+                        <option>Tvåsits</option>
+                        <option>Junior</option>
+                        </Form.Control>
+                    </Form.Group>
 
-            <Navbar>
-                <Nav className="mr-auto">
+            <Navbar className='p-0'>
+                <Nav className="mr-auto " fill variant="pills" >
 
-                    <NavDropdown title="Individuellt" id="collasible-nav-dropdown">
-                        <NavDropdown.Item onClick={()=>setActiveList('total')}><Link to='/results/total'>Total</Link></NavDropdown.Item>
-                        <NavDropdown.Item onClick={()=>setActiveList('class1')}><Link to='/results/class1'>Klass 1</Link></NavDropdown.Item>
-                        <NavDropdown.Item onClick={()=>setActiveList('class2')}><Link to='/results/class2'>Klass 2</Link></NavDropdown.Item>
-                        <NavDropdown.Item onClick={()=>setActiveList('twoSeated')}><Link to='/results/two-seated'>Tvåsits</Link></NavDropdown.Item>
-                        <NavDropdown.Item onClick={()=>setActiveList('junior')}><Link to='/results/junior'>Junior</Link></NavDropdown.Item>
-                    </NavDropdown>
-
-                    <NavDropdown title="Övrigt" id="collasible-nav-dropdown">
-                        <NavDropdown.Item onClick={()=>setActiveList('team')}><Link to='/results/total'>Lag</Link></NavDropdown.Item>
-                        <NavDropdown.Item onClick={()=>setActiveList('retro')}><Link to='/results/class1'>Retro-cupen</Link></NavDropdown.Item>
-                        <NavDropdown.Item onClick={()=>setActiveList('fai')}><Link to='/results/class2'>FAI-cupen</Link></NavDropdown.Item>
-                        <NavDropdown.Item onClick={()=>setActiveList('clubcup')}><Link to='/results/two-seated'>Klubbkampen</Link></NavDropdown.Item>
-                    </NavDropdown>
+                    <Nav.Link>Kombination</Nav.Link>
+                    <Nav.Link>Höjd</Nav.Link>
+                    <Nav.Link>Distans</Nav.Link>
+                    <Nav.Link>Ack Distans</Nav.Link>
+                    <Nav.Link>Hastighet</Nav.Link>
                         
                         
 
