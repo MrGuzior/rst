@@ -5,9 +5,9 @@ import News from '../News/News'
 const Home = () => {
     return(
         <section className='home'>
-                <ResultList/>
-                <ResultList/>
-                <ResultList/>
+            <div className='home-item'>
+                <ResultList maxLength={10}/>
+            </div>
         </section>
     )
 }

@@ -4,7 +4,7 @@ import {selectData} from '../../store/appSlice'
 import {Table} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 
-const ResultList = () => {
+const ResultList = ({maxLength = 500}) => {
     const {flights} = useSelector(selectData)
 
     return(
@@ -24,18 +24,20 @@ const ResultList = () => {
                 </thead>
                 <tbody>
                     {flights.map((flight,id)=>{
-                        return(
-                            <tr>
-                                    <td><Link to={`/flights/${flight.id}`}>{id+1}</Link></td>
-                                    <td>{flight.pilotName}</td>
-                                    <td className='responsive-remove1'>ÖSFK</td>
-                                    <td className='responsive-remove2'>Junior</td>
-                                    <td>{flight.details.height}m</td>
-                                    <td>{flight.details.distance}km</td>
-                                    <td>{flight.details.speed}km/s</td>
-                                    <td>2523</td>
-                            </tr>
-                        )
+                        if(id <= maxLength){
+                            return(
+                                <tr>
+                                        <td><Link to={`/flights/${flight.id}`}>{id+1}</Link></td>
+                                        <td>{flight.pilotName}</td>
+                                        <td className='responsive-remove1'>ÖSFK</td>
+                                        <td className='responsive-remove2'>Junior</td>
+                                        <td>{flight.details.height}m</td>
+                                        <td>{flight.details.distance}km</td>
+                                        <td>{flight.details.speed}km/s</td>
+                                        <td>2523</td>
+                                </tr>
+                            )
+                        }
                     })}
                 </tbody>
             </Table>

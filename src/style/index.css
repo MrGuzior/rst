@@ -33,23 +33,17 @@ code {
 
 /*    Home    */
 .home{
-
-}
-
-.home .result-lists{
   display: grid;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
+}
+.home-item{
+
 }
 
-.home .result-lists .ResultList{
-  
-}
 
 @media only screen and (max-width: 800px){
-  .home .result-lists{
-    grid-template-columns: 1fr;
-  }
+
   .responsive-remove1{
     display:none;
         width:0;
@@ -98,3 +92,4 @@ code {
     width: 100%;
   }
 }
+
