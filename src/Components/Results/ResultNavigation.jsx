@@ -1,9 +1,8 @@
 import React from 'react'
-
+import {NavLink} from 'react-router-dom'
 import {
     Navbar,
     Nav,
-    NavDropdown,
     Form
 } from 'react-bootstrap'
 
@@ -32,11 +31,11 @@ const ResultNavigation = () => {
                             </Form.Control>
                         </Form.Group>
                     </Nav>
-                    <Nav.Link className='px-2' eventKey='kombination'>Kombination</Nav.Link>
-                    <Nav.Link className='px-2' eventKey='height'>Höjd</Nav.Link>
-                    <Nav.Link className='px-2' eventKey='distance'>Distans</Nav.Link>
-                    <Nav.Link className='px-1' eventKey='totalDistance'>Ack Distans</Nav.Link>
-                    <Nav.Link className='px-2' eventKey='speed'>Hastighet</Nav.Link>
+                    <Nav.Link as={NavLink} className='px-2' eventKey='kombination'>Kombination</Nav.Link>
+                    <Nav.Link as={NavLink} className='px-2' eventKey='height'>Höjd</Nav.Link>
+                    <Nav.Link as={NavLink} className='px-2' eventKey='distance'>Distans</Nav.Link>
+                    <Nav.Link as={NavLink} className='px-1' eventKey='totalDistance'>Ack Distans</Nav.Link>
+                    <Nav.Link as={NavLink} className='px-2' eventKey='speed'>Hastighet</Nav.Link>
                 </Nav>
             </Navbar>
         </div>
