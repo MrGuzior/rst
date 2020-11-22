@@ -17,15 +17,15 @@ function App() {
       <Router>
           <div className='header-background'></div>
           <Nav/>
-            <Switch>
-              
-              <Route exact path='/' component={Home}/>    
-              
-              <Route path='/results' component={Results}/>
+          <Switch>
+            
+            <Route exact path='/' component={Home}/>    
+            
+            <Route path='/results' component={Results}/>
 
-              <Route path='/flights/:id' component={Flight}/>
-                
-            </Switch>
+            <Route path='/flights/:id' component={Flight}/>
+              
+          </Switch>
       </Router>
     </>
   )

@@ -1,12 +1,12 @@
 import React from 'react'
 import {useParams} from 'react-router-dom'
-import {useSelector, useDispatch} from 'react-redux'
+import {useSelector} from 'react-redux'
 import {selectData} from '../../store/appSlice'
 
 const Flight = () => {
     const {id} = useParams()
     const {flights} = useSelector(selectData)
-    const flight = flights.filter(flight => flight.id === id)[0]
+    const flight = flights.find(flight => flight.id === id)
     
     return(
         <section className='flight'>

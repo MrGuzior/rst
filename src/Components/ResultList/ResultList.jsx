@@ -26,7 +26,7 @@ const ResultList = ({maxLength = 500}) => {
                     {flights.map((flight,id)=>{
                         if(id <= maxLength){
                             return(
-                                <tr>
+                                <tr key={flight.id}>
                                         <td><Link to={`/flights/${flight.id}`}>{id+1}</Link></td>
                                         <td>{flight.pilotName}</td>
                                         <td className='responsive-remove1'>ÖSFK</td>
