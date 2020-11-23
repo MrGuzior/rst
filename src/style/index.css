@@ -13,6 +13,10 @@ code {
       monospace;
 }
 
+.title{
+  font-family: 'Play', sans-serif;
+}
+
 /*   NAV   */
 
 .personal-nav{
@@ -105,6 +109,12 @@ code {
     display: inline-block;
     width: 100%;
   }
+}
+
+/*NewResult*/
+
+.NewResult{
+  magin: 1em;
 }
 
 

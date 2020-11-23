@@ -10,7 +10,7 @@ const navbar = () => {
     return (
         <>
             <Navbar bg="light" expand="lg" sticky="top">
-                <Navbar.Brand as={NavLink} to='/'>RST-Online</Navbar.Brand>
+                <Navbar.Brand as={NavLink} to='/' className='title'>RST-Online</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
