@@ -1,7 +1,7 @@
 import React from 'react'
 import ResultList from '../ResultList/ResultList'
 import News from '../News/News'
-import HomeBlock from './HomeBlock'
+
 
 const Home = () => {
     return(

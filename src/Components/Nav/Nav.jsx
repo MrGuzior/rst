@@ -36,7 +36,7 @@ const navbar = () => {
                     </Nav>
                     
                     <Nav className=" personal-nav">
-                    <Nav.Link as={NavLink} to='/log'>Nytt resultat</Nav.Link>
+                    <Nav.Link as={NavLink} to='/new-result'>Nytt resultat</Nav.Link>
                     <Nav.Link as={NavLink} to='/taskPlanner'>Task planner</Nav.Link>
                     <Nav.Link as={NavLink} to='/contact'>Klubbinfo</Nav.Link>
                     <Nav.Link as={NavLink} to='/results'>Profil</Nav.Link>
