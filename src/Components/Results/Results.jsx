@@ -7,7 +7,7 @@ const Results = () => {
 
     return(
         <section className="results">
-                <ResultNavigation/>
+            <ResultNavigation/>
             <div className='result mt-0 pt-0'>
                 <ResultList/>
             </div>
