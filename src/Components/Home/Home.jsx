@@ -1,13 +1,15 @@
 import React from 'react'
 import ResultList from '../ResultList/ResultList'
 import News from '../News/News'
+import HomeBlock from './HomeBlock'
 
 const Home = () => {
     return(
         <section className='home'>
-            <div className='home-item'>
-                <ResultList maxLength={10}/>
-            </div>
+            <ResultList maxLength={10}/>
+            <ResultList maxLength={5}/>
+            <ResultList maxLength={5}/>
+            <ResultList maxLength={5}/>
         </section>
     )
 }

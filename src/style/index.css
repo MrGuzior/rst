@@ -34,11 +34,25 @@ code {
 /*    Home    */
 .home{
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-}
-.home-item{
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1em;
 
+}
+.HomeBlock{
+  min-width: 350px;
+  min-height: 350px;
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 1000px){
+  .home{
+    grid-template-columns: 1fr;
+    margin: 3px;
+  }
+}
+
+.block-0{
 }
 
 
@@ -92,4 +106,6 @@ code {
     width: 100%;
   }
 }
+
+
 
