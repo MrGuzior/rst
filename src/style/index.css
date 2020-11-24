@@ -43,10 +43,11 @@ code {
   grid-gap: 1em;
 
 }
-.HomeBlock{
-  min-width: 350px;
-  min-height: 350px;
-  border: 1px solid black;
+.home-item{
+  padding: 1em;
+  border:1px solid rgb(218, 218, 218);
+  border-radius: 1em;
+  box-shadow: 1px 1px 1px rgb(240, 240, 240);
 }
 
 @media only screen and (max-width: 1000px){
