@@ -30,8 +30,8 @@ const ResultNavigation = () => {
             </Form.Group>
             <Navbar  className='p-0'>
                 <Nav className="mr-auto" fill variant="tabs" defaultActiveKey="kombination" >
-                    <Nav>
-                        <Form.Group className='mr-0 hide-when-mobile' controlId="exampleForm.ControlSelect1" >
+                    <Nav.Link>
+                        
                             <Form.Control as="select" onChange={e=>changeListCategory(e)}>
                                 <option value='total' href='#total' defaultValue='total'>Total</option>
                                 <option value='class1' href='#class1'>Klass 1</option>
@@ -39,8 +39,8 @@ const ResultNavigation = () => {
                                 <option value='twoseated'>Tvåsits</option>
                                 <option value='junior'>Junior</option>
                             </Form.Control>
-                        </Form.Group>
-                    </Nav>
+                        
+                    </Nav.Link>
                     <Nav.Link as={NavLink} className='px-2' eventKey='kombination' to='#combi'>Kombination</Nav.Link>
                     <Nav.Link as={NavLink} className='px-2' eventKey='height' to='#height'>Höjd</Nav.Link>
                     <Nav.Link as={NavLink} className='px-2' eventKey='distance' to='#distance'>Distans</Nav.Link>
