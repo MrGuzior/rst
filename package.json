@@ -11,6 +11,7 @@
     "bootstrap": "^4.5.3",
     "faker": "^5.1.0",
     "fs": "0.0.1-security",
+    "igc-parser": "^0.5.0",
     "leaflet": "^1.7.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
