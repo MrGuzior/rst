@@ -19,11 +19,12 @@ const Map = () => {
     
     useEffect(()=>{
         if(flightData){
-            //console.log(flightData.task.points)
+            console.log(flightData.fixes)
         }
     }, [flightData])
 
     const limeOptions = { color: 'lime' }
+    const trackOptions = { color: 'blue' }
     const polyline = () => [
         [51.505, -0.09],
         [51.51, -0.1],
@@ -39,9 +40,18 @@ const Map = () => {
         })
         pointArr.pop()
         pointArr.shift()
-        console.log(pointArr)
         return pointArr
     }  
+
+    const getFlightPoints = () => {
+        let pointArr = []
+        flightData.fixes.map(point=>{
+            pointArr = [...pointArr, [point.latitude, point.longitude]]
+        })
+
+        return pointArr
+
+    }
 
 
     return(
@@ -53,6 +63,7 @@ const Map = () => {
                     url="https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png"
                 />
                     <Polyline pathOptions={limeOptions} positions={getTaskPoints()} />
+                    <Polyline pathOptions={trackOptions} positions={getFlightPoints()} />
             </MapContainer>
                 }
         </div>
