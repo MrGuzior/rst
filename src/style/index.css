@@ -41,19 +41,30 @@ code {
   grid-template-columns: 3fr 1fr;
   grid-template-rows: auto;
   grid-gap: 1em;
+  margin: 0.5em;
 
 }
 .home-item{
   padding: 1em;
   border:1px solid rgb(218, 218, 218);
+  border-top: 1px solid rgb(233, 233, 233);
   border-radius: 1em;
-  box-shadow: 2px 2px 3px rgb(240, 240, 240);
+  box-shadow: 2px 2px 3px rgb(247, 247, 247);
+}
+
+.home-item-title{
+  float:left;
+	padding:0 5px;
+	margin:-30px 0 0 30px;
+  background:#fff;
+  font-size: 1.2em;
 }
 
 @media only screen and (max-width: 1000px){
   .home{
     grid-template-columns: 1fr;
     margin: 3px;
+    margin: 0;
   }
 }
 
