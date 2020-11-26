@@ -2,6 +2,7 @@ import React from 'react'
 import {useParams} from 'react-router-dom'
 import {useSelector} from 'react-redux'
 import {selectData} from '../../store/appSlice'
+import Map from '../Map/Map'
 
 const Flight = () => {
     const {id} = useParams()
@@ -14,6 +15,7 @@ const Flight = () => {
             <p>{flight.details.distance}km</p>
             <p>{flight.details.speed}km/s</p>
             <p>{flight.details.height}m</p>
+            <Map/>
         </section>
     )
 }
