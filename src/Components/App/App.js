@@ -11,6 +11,8 @@ import Results from '../Results/Results'
 import Flight from '../Flight/Flight'
 import headerBackground from '../../db/headerBackground.jpeg'
 import NewResult from '../NewResult/NewResult'
+import Map from '../Map/Map'
+import 'leaflet/dist/leaflet.css'
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
             <Route path='/flights/:id' component={Flight}/>
 
             <Route path='/new-result' component={NewResult}/>
+
+            <Route path='/map' component={Map}/>
               
           </Switch>
       </Router>
