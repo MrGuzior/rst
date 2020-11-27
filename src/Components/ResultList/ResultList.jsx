@@ -9,7 +9,7 @@ const ResultList = ({maxLength = 500, title}) => {
 
     return(
         <section className={`ResultList`}>
-            <div className='home-item-title'>{title}</div>
+            
             <Table responsive="sm" striped size="sm">
                 <thead>
                     <tr>

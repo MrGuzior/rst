@@ -6,7 +6,7 @@ const NewsItem = ({item}) => {
     
 
     return (
-        <section className="NewsItem">
+        <section className="NewsItem mb-1">
             <Card>
             <Card.Body>
                 <Card.Title>Special title treatment</Card.Title>

@@ -7,16 +7,20 @@ const Home = () => {
     return(
         <section className='home'>
             <HomeItem
-                component={<ResultList maxLength={10} itemType='' title='Senaste flygningar'/>}
+                title='Senaste flygningar'
+                component={<ResultList maxLength={10}/>}
             />
             <HomeItem
+                title='News'
                 component={<News/>}
             />
             <HomeItem
-                component={<ResultList maxLength={6} itemType='home-item' title='Senaste flygningar'/>}
+                title='Allmän toplista'
+                component={<ResultList maxLength={6}/>}
             />
             <HomeItem
-                component={<ResultList maxLength={6} itemType='home-item' title='Senaste flygningar'/>}
+                title='Månadens bästa'
+                component={<ResultList maxLength={6}/>}
             />
         </section>
     )
