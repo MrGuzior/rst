@@ -1,10 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import {MapContainer, TileLayer, Polyline, Circle} from 'react-leaflet'
 import IGCParser from 'igc-parser'
-import data from './LXV-4SB-01_rst.igc'
-
-const fs = require('fs')
-
+import data from '../../db/flights/LXV-4SB-01_rst.igc'
 
 const Map = () => {
     const [flightData, setFlightData] = useState(null)
