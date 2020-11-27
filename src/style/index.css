@@ -26,14 +26,10 @@ code {
 /*   News   */
 
 .News{
-  display: flex;
-  flex-wrap: wrap;
+  overflow: hidden;
 }
 
-.News .NewsItem{
-  border: 1px solid black;
-  flex: 1 0 33%
-}
+
 
 /*    Home    */
 .home{

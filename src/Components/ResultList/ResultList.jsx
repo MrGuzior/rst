@@ -4,11 +4,11 @@ import {selectData} from '../../store/appSlice'
 import {Table} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 
-const ResultList = ({maxLength = 500, itemType, title}) => {
+const ResultList = ({maxLength = 500, title}) => {
     const {flights} = useSelector(selectData)
 
     return(
-        <section className={`ResultList ${itemType}`}>
+        <section className={`ResultList`}>
             <div className='home-item-title'>{title}</div>
             <Table responsive="sm" striped size="sm">
                 <thead>

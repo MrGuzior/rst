@@ -7,9 +7,8 @@ const News = () => {
     const {news} = useSelector(selectData)
     return (
         <section className="News">
-            {
-                news.map(item=><NewsItem item={item}/>)
-            }
+            <NewsItem/>
+            <NewsItem/>
         </section>
     )
 }
