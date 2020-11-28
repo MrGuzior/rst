@@ -1,36 +1,39 @@
 import React,{
     useState
 } from 'react'
-import {NavLink} from 'react-router-dom'
+import {NavLink, useHistory, useLocation, useParams} from 'react-router-dom'
 import {
     Navbar,
     Nav,
-    Form
+    Form,
+    NavDropdown
 } from 'react-bootstrap'
 
 const ResultNavigation = () => {
+    const [activeCategory, setActiveCategory] = useState('Total')
+
     return (
         <div className='d-flex flex-wrap class-select'>
             <Form.Group className='mr-0 show-when-mobile' controlId="exampleForm.ControlSelect1" >
                 <Form.Control as="select">
-                <option>Allmän (Totalt)</option>
-                <option>Klass 1</option>
-                <option>Klass 2</option>
-                <option>Tvåsits</option>
-                <option>Junior</option>
+                    <option>Allmän (Totalt)</option>
+                    <option>Klass 1</option>
+                    <option>Klass 2</option>
+                    <option>Tvåsits</option>
+                    <option>Junior</option>
                 </Form.Control>
             </Form.Group>
             <Navbar  className='p-0'>
                 <Nav className="mr-auto" fill variant="tabs" defaultActiveKey="kombination" >
                     <Nav.Link className='px-2 hide-when-mobile'>
                         
-                            <Form.Control as="select">
-                                <option value='total' href='#total' defaultValue='total'>Total</option>
-                                <option value='class1' href='#class1'>Klass 1</option>
-                                <option value='class2'>Klass 2</option>
-                                <option value='twoseated'>Tvåsits</option>
-                                <option value='junior'>Junior</option>
-                            </Form.Control>
+                    <NavDropdown title={activeCategory} id="collasible-nav-dropdown">
+                        <NavDropdown.Item as={NavLink} to='/results/total'  onSelect={()=>setActiveCategory('Total')}>Allmän (Totalt)</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to='/results/class1' onSelect={()=>setActiveCategory('Klass 1')}>Klass 1</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to='/results/class2' onSelect={()=>setActiveCategory('Klass 2')}>Klass 2</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to='/results/twoseated' onSelect={()=>setActiveCategory('Tvåsits')}>Tvåsits</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to='/results/junior' onSelect={()=>setActiveCategory('Junior')}>Junior</NavDropdown.Item>
+                    </NavDropdown>
                         
                     </Nav.Link>
                     <Nav.Link as={NavLink} className='px-2' eventKey='kombination' to='#combi'>Kombination</Nav.Link>
