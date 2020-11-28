@@ -30,7 +30,7 @@ const ResultNavigation = () => {
             </Form.Group>
             <Navbar  className='p-0'>
                 <Nav className="mr-auto" fill variant="tabs" defaultActiveKey="kombination" >
-                    <Nav.Link>
+                    <Nav.Link className='px-2 hide-when-mobile'>
                         
                             <Form.Control as="select" onChange={e=>changeListCategory(e)}>
                                 <option value='total' href='#total' defaultValue='total'>Total</option>

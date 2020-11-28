@@ -19,8 +19,8 @@ const Home = () => {
                 component={<ResultList maxLength={6}/>}
             />
             <HomeItem
-                title='Månadens bästa'
-                component={<ResultList maxLength={6}/>}
+                title='Tävlingar'
+                component={<News/>}
             />
         </section>
     )
