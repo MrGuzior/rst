@@ -9,14 +9,6 @@ import {
 } from 'react-bootstrap'
 
 const ResultNavigation = () => {
-    const [activeCategory, setActiveCategory] = useState('total')
-
-
-    const changeListCategory = e => {
-        e.preventDefault()
-        setActiveCategory(e.target.value)
-    }
-
     return (
         <div className='d-flex flex-wrap class-select'>
             <Form.Group className='mr-0 show-when-mobile' controlId="exampleForm.ControlSelect1" >
@@ -32,7 +24,7 @@ const ResultNavigation = () => {
                 <Nav className="mr-auto" fill variant="tabs" defaultActiveKey="kombination" >
                     <Nav.Link className='px-2 hide-when-mobile'>
                         
-                            <Form.Control as="select" onChange={e=>changeListCategory(e)}>
+                            <Form.Control as="select">
                                 <option value='total' href='#total' defaultValue='total'>Total</option>
                                 <option value='class1' href='#class1'>Klass 1</option>
                                 <option value='class2'>Klass 2</option>
