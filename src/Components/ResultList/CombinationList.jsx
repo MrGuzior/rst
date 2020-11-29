@@ -1,14 +1,16 @@
 import React from 'react'
+import ResultNavigation from '../Results/ResultNavigation'
 import {useSelector} from 'react-redux'
 import {selectData} from '../../store/appSlice'
 import {Table} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 
-const ResultList = ({maxLength = 500}) => {
+const CombinationList = ({maxLength = 500}) => {
     const {flights} = useSelector(selectData)
 
     return(
         <section className={`ResultList`}>
+            <ResultNavigation/>
             <Table responsive="sm" striped size="sm">
                 <thead>
                     <tr>
@@ -33,7 +35,7 @@ const ResultList = ({maxLength = 500}) => {
                                     <td className='responsive-remove2'>Junior</td>
                                     <td>{flight.details.height}m</td>
                                     <td>{flight.details.distance}km</td>
-                                    <td>{flight.details.speed}km/s</td>
+                                    <td>{flight.details.speed}km/h</td>
                                     <td>2523</td>
                                 </tr>
                             )
@@ -45,4 +47,4 @@ const ResultList = ({maxLength = 500}) => {
     )
 }
 
-export default ResultList
+export default CombinationList
