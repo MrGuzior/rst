@@ -24,7 +24,7 @@ function App() {
             
             <Route exact path='/' component={Home}/>    
             
-            <Route path='/results' component={Results}/>
+            <Route path='/results/:category?/:league?/:segment?' component={Results}/>
 
             <Route path='/flights/:id' component={Flight}/>
 

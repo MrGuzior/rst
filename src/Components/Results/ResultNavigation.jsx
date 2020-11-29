@@ -12,6 +12,11 @@ import {
 const ResultNavigation = () => {
     const [activeCategory, setActiveCategory] = useState('Total')
 
+    const location = useLocation()
+    const {category, league, segment} = useParams()
+
+    
+
     return (
         <div className='d-flex flex-wrap class-select'>
             <Form.Group className='mr-0 show-when-mobile' controlId="exampleForm.ControlSelect1" >
@@ -28,19 +33,20 @@ const ResultNavigation = () => {
                     <Nav.Link className='px-2 hide-when-mobile'>
                         
                     <NavDropdown title={activeCategory} id="collasible-nav-dropdown">
-                        <NavDropdown.Item as={NavLink} to='/results/total'  onSelect={()=>setActiveCategory('Total')}>Allmän (Totalt)</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/results/class1' onSelect={()=>setActiveCategory('Klass 1')}>Klass 1</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/results/class2' onSelect={()=>setActiveCategory('Klass 2')}>Klass 2</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/results/twoseated' onSelect={()=>setActiveCategory('Tvåsits')}>Tvåsits</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/results/junior' onSelect={()=>setActiveCategory('Junior')}>Junior</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to={`/results/${category}/total`}  onSelect={()=>setActiveCategory('Total')}>Allmän (Totalt)</NavDropdown.Item>
+                        
+                        <NavDropdown.Item as={NavLink} to={`/results/${category}/class1`} onSelect={()=>setActiveCategory('Klass 1')}>Klass 1</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to={`/results/${category}/class2`} onSelect={()=>setActiveCategory('Klass 2')}>Klass 2</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to={`/results/${category}/twoseated`} onSelect={()=>setActiveCategory('Tvåsits')}>Tvåsits</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to={`/results/${category}/junior`} onSelect={()=>setActiveCategory('Junior')}>Junior</NavDropdown.Item>
                     </NavDropdown>
                         
                     </Nav.Link>
-                    <Nav.Link as={NavLink} className='px-2' eventKey='kombination' to='#combi'>Kombination</Nav.Link>
-                    <Nav.Link as={NavLink} className='px-2' eventKey='height' to='#height'>Höjd</Nav.Link>
-                    <Nav.Link as={NavLink} className='px-2' eventKey='distance' to='#distance'>Distans</Nav.Link>
-                    <Nav.Link as={NavLink} className='px-1' eventKey='totalDistance' to='#totalDistance'>Ack Distans</Nav.Link>
-                    <Nav.Link as={NavLink} className='px-2' eventKey='speed' to='#speed'>Hastighet</Nav.Link>
+                    <Nav.Link as={NavLink} className='px-2' eventKey='kombination' to={`/results/${category}/${league}/combi`}>Kombination</Nav.Link>
+                    <Nav.Link as={NavLink} className='px-2' eventKey='height' to={`/results/${category}/${league}/height`}>Höjd</Nav.Link>
+                    <Nav.Link as={NavLink} className='px-2' eventKey='distance' to={`/results/${category}/${league}/distance`}>Distans</Nav.Link>
+                    <Nav.Link as={NavLink} className='px-1' eventKey='totalDistance' to={`/results/${category}/${league}/total-distance`}>Ack Distans</Nav.Link>
+                    <Nav.Link as={NavLink} className='px-2' eventKey='speed' to={`/results/${category}/${league}/speed`}>Hastighet</Nav.Link>
                 </Nav>
             </Navbar>
         </div>
