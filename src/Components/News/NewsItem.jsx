@@ -3,8 +3,6 @@ import {Card, Button} from 'react-bootstrap'
 
 
 const NewsItem = ({item}) => {
-    
-
     return (
         <section className="NewsItem mb-1">
             <Card>

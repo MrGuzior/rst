@@ -13,7 +13,7 @@ const ResultList = ({maxLength = 500, title}) => {
             <Table responsive="sm" striped size="sm">
                 <thead>
                     <tr>
-                    <th>#</th>
+                        <th>#</th>
                         <th>Pilot</th>
                         <th className='responsive-remove1'>Klubb</th>
                         <th className='responsive-remove2'>Klass</th>
