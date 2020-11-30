@@ -12,6 +12,7 @@ import Flight from '../Flight/Flight'
 import NewResult from '../NewResult/NewResult'
 import Map from '../Map/Map'
 import 'leaflet/dist/leaflet.css'
+import Individual from '../Results/Individual'
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Switch>
             
             <Route exact path='/' component={Home}/>    
+            
+            <Route path='/results/individual/:league?/:segment?' component={Individual}/>
             
             <Route path='/results/:category?/:league?/:segment?' component={Results}/>
 
