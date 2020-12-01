@@ -4,12 +4,10 @@ import ResultNavigation from './ResultNavigation'
 
 const Individual = () => {
     return (
-        <section className="results">
-            <ResultNavigation/>
-            <div className='result mt-0 pt-0'>
-                <ResultList/>
-            </div>
-        </section>
+        <>
+            <h1>Individual</h1>
+            <ResultList/>
+        </>
     )
 }
 

@@ -13,6 +13,7 @@ import NewResult from '../NewResult/NewResult'
 import Map from '../Map/Map'
 import 'leaflet/dist/leaflet.css'
 import Individual from '../Results/Individual'
+import ResultNavigation from '../Results/ResultNavigation'
 
 function App() {
   return (
@@ -23,11 +24,9 @@ function App() {
           <Switch>
             
             <Route exact path='/' component={Home}/>    
-            
-            <Route path='/results/individual/:league?/:segment?' component={Individual}/>
-            
-            <Route path='/results/:category?/:league?/:segment?' component={Results}/>
 
+            <Route path='/results/:category?/:league?/:segment?' component={Results}/>
+            
             <Route path='/flights/:id' component={Flight}/>
 
             <Route path='/new-result' component={NewResult}/>
