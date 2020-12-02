@@ -8,20 +8,16 @@ import {
     Switch,
     Route,
   } from "react-router-dom"
+import ResultTable from './ResultTable'
 
 
-const Results = () => {
+const Results = ({match}) => {
 
     return(
         <section className="results">
             <ResultNavigation/>
             <div className='result mt-0 pt-0'>
-                <Route path='/results/individual/:league?/:segment?' component={Individual}/>
-                <Route path='/results/individual-female/:league?/:segment?' component={ResultList}/>
-                <Route path='/results/retro/:league?/:segment?' component={Individual}/>
-                <Route path='/results/fai/:league?/:segment?' component={Individual}/>
-                <Route path='/results/team/:league?/:segment?' component={Individual}/>
-                <Route path='/results/flights/:league?/:segment?' component={Individual}/>
+                <ResultTable params={match.params}/>
             </div>
         </section>
     )
