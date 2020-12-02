@@ -3,13 +3,15 @@ import {useSelector} from 'react-redux'
 import {selectData} from '../../store/appSlice'
 import {Table} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
-import lists from '../../db/lists.js'
+import {resultTableHeads} from '../../db/lists.js'
 
 
 const ResultTable = ({params}) => {
     const {flights} = useSelector(selectData)
     const {category, league, segment} = params
-    const activeListTemplate = lists.filter(list=>list.path === segment)[0]
+    const activeListHeads = resultTableHeads.filter(list=>list.path === segment)[0]
+
+    
 
     return(
         <section className={`ResultList`}>
@@ -17,7 +19,7 @@ const ResultTable = ({params}) => {
                 <thead>
                     <tr>
                         {
-                            activeListTemplate.tableHeads.map(th=>(
+                            activeListHeads.heads.map(th=>(
                             <th>{th.name}</th>
                             ))
                         }
@@ -25,11 +27,7 @@ const ResultTable = ({params}) => {
                 </thead>
                 <tbody>
                     <tr>
-                        {
-                            activeListTemplate.tableHeads.map(th=>(
-                            <td>{th.inputType === 'string' ? 'string' : 1}</td>
-                            ))
-                        }
+
                     </tr>
                 </tbody>
             </Table>

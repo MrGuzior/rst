@@ -1,8 +1,8 @@
-const resultLists = [
+export const resultTableHeads = [
     {
         name: 'Segelflygkombination',
         path: 'combi',
-        tableHeads: [
+        heads: [
             {
                 name: '#',
                 collapsable: true,
@@ -57,7 +57,7 @@ const resultLists = [
     },{
         name: 'Höjdmomentet',
         path: 'height',
-        tableHeads: [
+        heads: [
             {
                 name: '#',
                 collapsable: true,
@@ -118,7 +118,7 @@ const resultLists = [
     },{
         name: 'Distansmomentet',
         path: 'distance',
-        tableHeads: [
+        heads: [
             {
                 name: '#',
                 collapsable: true,
@@ -179,7 +179,7 @@ const resultLists = [
     },{
         name: 'Ackumulerad distans',
         path: 'total-distance',
-        tableHeads: [
+        heads: [
             {
                 name: '#',
                 collapsable: true,
@@ -221,7 +221,7 @@ const resultLists = [
     },{
         name: 'Hastighetsmomentet',
         path: 'speed',
-        tableHeads: [
+        heads: [
             {
                 name: '#',
                 collapsable: true,
@@ -281,5 +281,3 @@ const resultLists = [
         ]
     }
 ]
-
-export default resultLists
