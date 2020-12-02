@@ -27,7 +27,13 @@ const ResultTable = ({params}) => {
                     </tr>
                 </thead>
                 <tbody>
-
+                    <tr>
+                        {
+                            activeListTemplate.tableHeads.map(th=>(
+                            <td>{th.inputType === 'string' ? 'string' : 1}</td>
+                            ))
+                        }
+                    </tr>
                 </tbody>
             </Table>
         </section>
