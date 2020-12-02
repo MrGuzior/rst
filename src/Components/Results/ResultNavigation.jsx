@@ -15,6 +15,8 @@ const ResultNavigation = () => {
     const location = useLocation()
     const {category, league, segment} = useParams()
 
+    console.log(segment)
+
     
 
     return (
@@ -33,12 +35,12 @@ const ResultNavigation = () => {
                     <Nav.Link className='px-2 hide-when-mobile'>
                         
                     <NavDropdown title={activeCategory} id="collasible-nav-dropdown">
-                        <NavDropdown.Item as={NavLink} to={`/results/${category}/total`}  onSelect={()=>setActiveCategory('Total')}>Allmän (Totalt)</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to={`/results/${category}/total/${segment}`}  onSelect={()=>setActiveCategory('Total')}>Allmän (Totalt)</NavDropdown.Item>
                         
-                        <NavDropdown.Item as={NavLink} to={`/results/${category}/class1`} onSelect={()=>setActiveCategory('Klass 1')}>Klass 1</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to={`/results/${category}/class2`} onSelect={()=>setActiveCategory('Klass 2')}>Klass 2</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to={`/results/${category}/twoseated`} onSelect={()=>setActiveCategory('Tvåsits')}>Tvåsits</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to={`/results/${category}/junior`} onSelect={()=>setActiveCategory('Junior')}>Junior</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to={`/results/${category}/class1/${segment}`} onSelect={()=>setActiveCategory('Klass 1')}>Klass 1</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to={`/results/${category}/class2/${segment}`} onSelect={()=>setActiveCategory('Klass 2')}>Klass 2</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to={`/results/${category}/twoseated/${segment}`} onSelect={()=>setActiveCategory('Tvåsits')}>Tvåsits</NavDropdown.Item>
+                        <NavDropdown.Item as={NavLink} to={`/results/${category}/junior/${segment}`} onSelect={()=>setActiveCategory('Junior')}>Junior</NavDropdown.Item>
                     </NavDropdown>
                         
                     </Nav.Link>

@@ -11,9 +11,6 @@ const ResultTable = ({params}) => {
     const {category, league, segment} = params
     const activeListTemplate = lists.filter(list=>list.path === segment)[0]
 
-    console.log(activeListTemplate.path)
-    console.log(segment)
-
     return(
         <section className={`ResultList`}>
             <Table responsive="sm" striped size="sm">
