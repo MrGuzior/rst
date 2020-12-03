@@ -9,7 +9,7 @@ import {resultTableHeads} from '../../db/lists.js'
 const ResultTable = ({params}) => {
     const {flights} = useSelector(selectData)
     const {category, league, segment} = params
-    const activeListHeads = resultTableHeads.filter(list=>list.path === segment)[0]
+    const activeListHeads = resultTableHeads.filter(list=>list.segment === segment)[0]
 
     
 
@@ -27,11 +27,11 @@ const ResultTable = ({params}) => {
                 </thead>
                 <tbody>
                         {
-                            [...Array(30)].map((x, i) =>
+                            [...Array(30)].map((_value, i) =>
                                 <tr>
                                     {
                                         activeListHeads.heads.map(th=>(
-                                            <td>{th.name}</td>
+                                            <td>{th.exampleValue}</td>
                                             ))
                                     }
                                 </tr>

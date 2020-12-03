@@ -1,282 +1,325 @@
+const faker = require('faker')
+
 export const resultTableHeads = [
     {
         name: 'Segelflygkombination',
-        path: 'combi',
+        segment: 'combi',
         heads: [
             {
                 name: '#',
                 collapsable: true,
                 icon: '',
                 onHover: 'Position',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: 1
             },{
                 name: 'Pilot',
                 collapsable: false,
                 icon: '',
                 onHover: 'Pilot namn',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.name.findName()
             },{
                 name: 'Klubb',
                 collapsable: true,
                 icon: '',
                 onHover: 'Flygklubb',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.random.arrayElement(['ÖSFK', 'BSFK', 'SSFK', 'FBSK'])
             },{
                 name: 'Klass',
                 collapsable: true,
                 icon: '',
                 onHover: 'Tävlingsklass',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.random.arrayElement(['Allmän', 'Class 1', 'Class 2'])
             },{
                 name: 'Höjd',
                 collapsable: false,
                 icon: '',
                 onHover: 'Höjdvinst',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Distans',
                 collapsable: false,
                 icon: '',
                 onHover: 'Distans',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(1000,30000)
             },{
                 name: 'Hastighet',
                 collapsable: false,
                 icon: '',
                 onHover: 'Hastighet',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(1000,40000)
             },{
                 name: 'Total',
                 collapsable: false,
                 icon: '',
                 onHover: 'Total points',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,90000)
             }
             
         ]
     },{
         name: 'Höjdmomentet',
-        path: 'height',
+        segment: 'height',
         heads: [
             {
                 name: '#',
                 collapsable: true,
                 icon: '',
                 onHover: 'Position',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: 1
             },{
                 name: 'Pilot',
                 collapsable: false,
                 icon: '',
                 onHover: 'Pilot namn',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.name.findName()
             },{
                 name: 'Klubb',
                 collapsable: true,
                 icon: '',
                 onHover: 'Flygklubb',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.random.arrayElement(['ÖSFK', 'BSFK', 'SSFK', 'FBSK'])
             },{
                 name: 'Klass',
                 collapsable: true,
                 icon: '',
                 onHover: 'Tävlingsklass',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.random.arrayElement(['Allmän', 'Class 1', 'Class 2'])
             },{
                 name: 'Res 1',
                 collapsable: false,
                 icon: '',
                 onHover: 'Resultat 1',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Res 2',
                 collapsable: false,
                 icon: '',
                 onHover: 'Resultat 2',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Res 3',
                 collapsable: false,
                 icon: '',
                 onHover: 'Resultat 3',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Res 4',
                 collapsable: false,
                 icon: '',
                 onHover: 'Resultat 4',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Summa',
                 collapsable: false,
                 icon: '',
                 onHover: 'Summa',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             }
             
         ]
     },{
         name: 'Distansmomentet',
-        path: 'distance',
+        segment: 'distance',
         heads: [
             {
                 name: '#',
                 collapsable: true,
                 icon: '',
                 onHover: 'Position',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: 1
             },{
                 name: 'Pilot',
                 collapsable: false,
                 icon: '',
                 onHover: 'Pilot namn',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.name.findName()
             },{
                 name: 'Klubb',
                 collapsable: true,
                 icon: '',
                 onHover: 'Flygklubb',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.random.arrayElement(['ÖSFK', 'BSFK', 'SSFK', 'FBSK'])
             },{
                 name: 'Klass',
                 collapsable: true,
                 icon: '',
                 onHover: 'Tävlingsklass',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.random.arrayElement(['Allmän', 'Class 1', 'Class 2'])
             },{
                 name: 'Dist 1',
                 collapsable: false,
                 icon: '',
                 onHover: 'Distans 1',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Poäng 1',
                 collapsable: false,
                 icon: '',
                 onHover: 'Poäng 1',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },
             {
                 name: 'Dist 2',
                 collapsable: false,
                 icon: '',
                 onHover: 'Distans 2',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Poäng 2',
                 collapsable: false,
                 icon: '',
                 onHover: 'Poäng 2',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Summa',
                 collapsable: false,
                 icon: '',
                 onHover: 'Summa',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             }
         ]
     },{
         name: 'Ackumulerad distans',
-        path: 'total-distance',
+        segment: 'total-distance',
         heads: [
             {
                 name: '#',
                 collapsable: true,
                 icon: '',
                 onHover: 'Position',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: 1
             },{
                 name: 'Pilot',
                 collapsable: false,
                 icon: '',
                 onHover: 'Pilot namn',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.name.findName()
             },{
                 name: 'Klubb',
                 collapsable: true,
                 icon: '',
                 onHover: 'Flygklubb',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.random.arrayElement(['ÖSFK', 'BSFK', 'SSFK', 'FBSK'])
             },{
                 name: 'Klass',
                 collapsable: true,
                 icon: '',
                 onHover: 'Tävlingsklass',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.random.arrayElement(['Allmän', 'Class 1', 'Class 2'])
             },{
                 name: 'Dist',
                 collapsable: false,
                 icon: '',
                 onHover: 'Distans',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Ack. Distans',
                 collapsable: false,
                 icon: '',
                 onHover: 'Ackumulerad distans',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             }
         ]
     },{
         name: 'Hastighetsmomentet',
-        path: 'speed',
+        segment: 'speed',
         heads: [
             {
                 name: '#',
                 collapsable: true,
                 icon: '',
                 onHover: 'Position',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: 1
             },{
                 name: 'Pilot',
                 collapsable: false,
                 icon: '',
                 onHover: 'Pilot namn',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.name.findName()
             },{
                 name: 'Klubb',
                 collapsable: true,
                 icon: '',
                 onHover: 'Flygklubb',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.random.arrayElement(['ÖSFK', 'BSFK', 'SSFK', 'FBSK'])
             },{
                 name: 'Klass',
                 collapsable: true,
                 icon: '',
                 onHover: 'Tävlingsklass',
-                inputType: 'string'
+                inputType: 'string',
+                exampleValue: faker.random.arrayElement(['Allmän', 'Class 1', 'Class 2'])
             },{
                 name: 'Hast 1',
                 collapsable: false,
                 icon: '',
                 onHover: 'Hastighet 1',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Poäng 1',
                 collapsable: false,
                 icon: '',
                 onHover: 'Poäng 1',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },
             {
                 name: 'Hast 2',
                 collapsable: false,
                 icon: '',
                 onHover: 'Hastighet 2',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Poäng 2',
                 collapsable: false,
                 icon: '',
                 onHover: 'Poäng 2',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             },{
                 name: 'Summa',
                 collapsable: false,
                 icon: '',
                 onHover: 'Summa',
-                inputType: 'number'
+                inputType: 'number',
+                exampleValue: faker.random.number(500,14000)
             }
         ]
     }
