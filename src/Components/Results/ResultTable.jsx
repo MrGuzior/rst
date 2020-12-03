@@ -26,9 +26,17 @@ const ResultTable = ({params}) => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-
-                    </tr>
+                        {
+                            [...Array(30)].map((x, i) =>
+                                <tr>
+                                    {
+                                        activeListHeads.heads.map(th=>(
+                                            <td>{th.name}</td>
+                                            ))
+                                    }
+                                </tr>
+                            )
+                        }
                 </tbody>
             </Table>
         </section>
