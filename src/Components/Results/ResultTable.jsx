@@ -31,7 +31,7 @@ const ResultTable = ({params}) => {
                                 <tr>
                                     {
                                         activeListHeads.heads.map(th=>(
-                                            <td>{th.exampleValue}</td>
+                                            <td>{th.name === '#' ? i+1 : th.exampleValue}</td>
                                             ))
                                     }
                                 </tr>
