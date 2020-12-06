@@ -12,8 +12,6 @@ import Flight from '../Flight/Flight'
 import NewResult from '../NewResult/NewResult'
 import Map from '../Map/Map'
 import 'leaflet/dist/leaflet.css'
-import Individual from '../Results/Individual'
-import ResultNavigation from '../Results/ResultNavigation'
 
 function App() {
   return (
