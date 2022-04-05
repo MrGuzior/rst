@@ -1,14 +1,10 @@
 import React from 'react'
-import {useSelector} from 'react-redux'
-import {selectData} from '../../store/appSlice'
 import {Table} from 'react-bootstrap'
-import {Link} from 'react-router-dom'
 import {resultTableHeads} from '../../db/lists.js'
 
 
 const ResultTable = ({params}) => {
-    const {flights} = useSelector(selectData)
-    const {category, league, segment} = params
+    const {segment} = params
     const activeListHeads = resultTableHeads.filter(list=>list.segment === segment)[0]
 
     

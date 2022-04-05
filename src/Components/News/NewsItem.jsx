@@ -1,7 +1,6 @@
 import React from 'react'
 import {Card, Button} from 'react-bootstrap'
 
-
 const NewsItem = ({item}) => {
     return (
         <div className="NewsItem mb-1">
