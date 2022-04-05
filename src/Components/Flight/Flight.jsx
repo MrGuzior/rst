@@ -10,13 +10,13 @@ const Flight = () => {
     const flight = flights.find(flight => flight.id === id)
     
     return(
-        <section className='flight'>
+        <div className='flight'>
             <p>{flight.pilotName}</p>
             <p>{flight.details.distance}km</p>
             <p>{flight.details.speed}km/s</p>
             <p>{flight.details.height}m</p>
             <Map/>
-        </section>
+        </div>
     )
 }
 

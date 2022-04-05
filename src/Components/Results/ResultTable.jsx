@@ -14,7 +14,7 @@ const ResultTable = ({params}) => {
     
 
     return(
-        <section className={`ResultList`}>
+        <div className={`ResultList`}>
             <Table responsive="sm" striped size="sm">
                 <thead>
                     <tr>
@@ -39,7 +39,7 @@ const ResultTable = ({params}) => {
                         }
                 </tbody>
             </Table>
-        </section>
+        </div>
     )
 }
 

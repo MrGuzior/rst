@@ -14,12 +14,12 @@ import ResultTable from './ResultTable'
 const Results = ({match}) => {
 
     return(
-        <section className="results">
+        <div className="results">
             <ResultNavigation/>
             <div className='result mt-0 pt-0'>
                 <ResultTable params={match.params}/>
             </div>
-        </section>
+        </div>
     )
 }
 

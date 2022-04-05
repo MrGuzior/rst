@@ -8,7 +8,7 @@ const ResultList = ({maxLength = 500}) => {
     const {flights} = useSelector(selectData)
 
     return(
-        <section className={`ResultList`}>
+        <div className={`ResultList`}>
             <Table responsive="sm" striped size="sm">
                 <thead>
                     <tr>
@@ -41,7 +41,7 @@ const ResultList = ({maxLength = 500}) => {
                     })}
                 </tbody>
             </Table>
-        </section>
+        </div>
     )
 }
 

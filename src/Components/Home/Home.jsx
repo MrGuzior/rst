@@ -5,7 +5,7 @@ import HomeItem from './HomeItem'
 
 const Home = () => {
     return(
-        <section className='home'>
+        <div className='home'>
             <HomeItem
                 title='Senaste flygningar'
                 component={<ResultList maxLength={10}/>}
@@ -22,7 +22,7 @@ const Home = () => {
                 title='Tävlingar'
                 component={<News/>}
             />
-        </section>
+        </div>
     )
 }
 

@@ -4,7 +4,7 @@ import {Card, Button} from 'react-bootstrap'
 
 const NewsItem = ({item}) => {
     return (
-        <section className="NewsItem mb-1">
+        <div className="NewsItem mb-1">
             <Card>
             <Card.Body>
                 <Card.Title>Special title treatment</Card.Title>
@@ -14,7 +14,7 @@ const NewsItem = ({item}) => {
                 <Button variant="light">Go somewhere</Button>
             </Card.Body>
             </Card>
-        </section>
+        </div>
     )
 }
 

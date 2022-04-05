@@ -7,11 +7,11 @@ import {Button} from 'react-bootstrap'
 const News = () => {
     const {news} = useSelector(selectData)
     return (
-        <section className="News">
+        <div className="News">
             <NewsItem/>
             <NewsItem/>
             <Button className='mt-2' variant="light">Read more...</Button>
-        </section>
+        </div>
     )
 }
 
