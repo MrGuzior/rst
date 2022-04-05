@@ -9,8 +9,10 @@ import Nav from '../Nav/Nav'
 import Home from '../Home/Home'
 import Results from '../Results/Results'
 import Flight from '../Flight/Flight'
+import Login from '../Login/Login'
 import NewResult from '../NewResult/NewResult'
 import Map from '../Map/Map'
+import Profile from '../Profile/Profile'
 import 'leaflet/dist/leaflet.css'
 
 function App() {
@@ -20,17 +22,13 @@ function App() {
           <div className='header-background'></div>
           <Nav/>
           <Switch>
-            
             <Route exact path='/' component={Home}/>    
-
             <Route path='/results/:category?/:league?/:segment?' component={Results}/>
-            
             <Route path='/flights/:id' component={Flight}/>
-
             <Route path='/new-result' component={NewResult}/>
-
             <Route path='/map' component={Map}/>
-              
+            <Route path='/login' component={Login}/>
+            <Route path='/profile' component={Profile}/> 
           </Switch>
       </Router>
     </>

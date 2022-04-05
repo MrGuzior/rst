@@ -39,8 +39,8 @@ const navbar = () => {
                     </Nav>
                     <Nav className=" personal-nav">
                         <Nav.Link as={NavLink} to='/new-result'>Nytt resultat</Nav.Link>
-                        <Nav.Link as={NavLink} to='/results'>Profil</Nav.Link>
-                        <Nav.Link as={NavLink} to='/results'>Log out</Nav.Link>
+                        <Nav.Link as={NavLink} to='/profile'>Profil</Nav.Link>
+                        <Nav.Link as={NavLink} to='/login'>Log out</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar> 
