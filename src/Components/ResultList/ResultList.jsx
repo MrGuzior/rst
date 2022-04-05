@@ -23,21 +23,19 @@ const ResultList = ({maxLength = 500}) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {flights.map((flight,id)=>{
-                        if(id <= maxLength){
-                            return(
-                                <tr key={flight.id}>
-                                    <td><Link to={`/flights/${flight.id}`}>{id+1}</Link></td>
-                                    <td>{flight.pilotName}</td>
-                                    <td className='responsive-remove1'>ÖSFK</td>
-                                    <td className='responsive-remove2'>Junior</td>
-                                    <td>{flight.details.height}m</td>
-                                    <td>{flight.details.distance}km</td>
-                                    <td>{flight.details.speed}km/s</td>
-                                    <td>2523</td>
-                                </tr>
-                            )
-                        }
+                    {flights.splice(0,maxLength).map((flight,id)=>{
+                        return(
+                            <tr key={flight.id}>
+                                <td><Link to={`/flights/${flight.id}`}>{id+1}</Link></td>
+                                <td>{flight.pilotName}</td>
+                                <td className='responsive-remove1'>ÖSFK</td>
+                                <td className='responsive-remove2'>Junior</td>
+                                <td>{flight.details.height}m</td>
+                                <td>{flight.details.distance}km</td>
+                                <td>{flight.details.speed}km/s</td>
+                                <td>2523</td>
+                            </tr>
+                        )
                     })}
                 </tbody>
             </Table>
