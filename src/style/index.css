@@ -33,11 +33,12 @@ code {
 
 /*    Home    */
 .home{
+  max-width: 1440px;
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: auto;
   grid-gap: 1em;
-  margin: 0.5em;
+  margin: 0.5em auto;
 
 }
 .home-item{
@@ -64,10 +65,6 @@ code {
 
   }
 }
-
-.block-0{
-}
-
 
 @media only screen and (max-width: 800px){
 
