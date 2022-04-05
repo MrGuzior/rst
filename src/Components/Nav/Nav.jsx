@@ -21,17 +21,24 @@ const navbar = () => {
                             <NavDropdown.Item as={NavLink} to='/results/fai/total/combi'>FAI-cupen</NavDropdown.Item>
                             <NavDropdown.Item as={NavLink} to='/results/clubb/total/combi'>Klubbkampen</NavDropdown.Item>
                             <NavDropdown.Item as={NavLink} to='/results/team/total/combi'>Lag</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/team/total/combi'>SM</NavDropdown.Item>
                             <NavDropdown.Item as={NavLink} to='/results/flights/total/combi'>Flygningar</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/flights/total/combi'>Flygningar Dam</NavDropdown.Item>
                         </NavDropdown>
-
-                        <Nav.Link as={NavLink} to='/competitions'>Tävlingar</Nav.Link>
-                        <Nav.Link as={NavLink} to='/rules'>Regler</Nav.Link>
-                        <Nav.Link as={NavLink} to='/contact'>Kontakt</Nav.Link>
+                        <NavDropdown title="Tävlingar" id="collasible-nav-dropdown">
+                            <NavDropdown.Item as={NavLink} to='/results/individual/total/combi'>HDI</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/individual-female/total/combi'>HDI Eskilstuna</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/retro/total/combi'>HDI Feringe</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/fai/total/combi'>HDI Vängsö</NavDropdown.Item>
+                        </NavDropdown>
+                        <NavDropdown title="Mer" id="collasible-nav-dropdown">
+                            <NavDropdown.Item as={NavLink} to='/results/individual/total/combi'>Regler</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/individual-female/total/combi'>Register</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/retro/total/combi'>Kontakt</NavDropdown.Item>
+                        </NavDropdown>
                     </Nav>
                     <Nav className=" personal-nav">
                         <Nav.Link as={NavLink} to='/new-result'>Nytt resultat</Nav.Link>
-                        <Nav.Link as={NavLink} to='/taskPlanner'>Task planner</Nav.Link>
-                        <Nav.Link as={NavLink} to='/contact'>Klubbinfo</Nav.Link>
                         <Nav.Link as={NavLink} to='/results'>Profil</Nav.Link>
                         <Nav.Link as={NavLink} to='/results'>Log out</Nav.Link>
                     </Nav>
