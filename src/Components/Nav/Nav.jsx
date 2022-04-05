@@ -14,32 +14,26 @@ const navbar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                    
-                    <NavDropdown title="Resultat" id="collasible-nav-dropdown">
-                        <NavDropdown.Item as={NavLink} to='/results/individual/total/combi'>Individuellt</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/results/individual-female/total/combi'>Individuellt Dam</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/results/retro/total/combi'>Retro-cupen</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/results/fai/total/combi'>FAI-cupen</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/results/clubb/total/combi'>Klubbkampen</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/results/team/total/combi'>Lag</NavDropdown.Item>
-                        <NavDropdown.Item as={NavLink} to='/results/flights/total/combi'>Flygningar</NavDropdown.Item>
-                    </NavDropdown>
+                        <NavDropdown title="Resultat" id="collasible-nav-dropdown">
+                            <NavDropdown.Item as={NavLink} to='/results/individual/total/combi'>Individuellt</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/individual-female/total/combi'>Individuellt Dam</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/retro/total/combi'>Retro-cupen</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/fai/total/combi'>FAI-cupen</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/clubb/total/combi'>Klubbkampen</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/team/total/combi'>Lag</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/results/flights/total/combi'>Flygningar</NavDropdown.Item>
+                        </NavDropdown>
 
-
-                    <Nav.Link as={NavLink} to='/competitions'>Tävlingar</Nav.Link>
-                    <Nav.Link as={NavLink} to='/rules'>Regler</Nav.Link>
-                    <Nav.Link as={NavLink} to='/contact'>Kontakt</Nav.Link>
-
-
-                    
+                        <Nav.Link as={NavLink} to='/competitions'>Tävlingar</Nav.Link>
+                        <Nav.Link as={NavLink} to='/rules'>Regler</Nav.Link>
+                        <Nav.Link as={NavLink} to='/contact'>Kontakt</Nav.Link>
                     </Nav>
-                    
                     <Nav className=" personal-nav">
-                    <Nav.Link as={NavLink} to='/new-result'>Nytt resultat</Nav.Link>
-                    <Nav.Link as={NavLink} to='/taskPlanner'>Task planner</Nav.Link>
-                    <Nav.Link as={NavLink} to='/contact'>Klubbinfo</Nav.Link>
-                    <Nav.Link as={NavLink} to='/results'>Profil</Nav.Link>
-                    <Nav.Link as={NavLink} to='/results'>Log out</Nav.Link>
+                        <Nav.Link as={NavLink} to='/new-result'>Nytt resultat</Nav.Link>
+                        <Nav.Link as={NavLink} to='/taskPlanner'>Task planner</Nav.Link>
+                        <Nav.Link as={NavLink} to='/contact'>Klubbinfo</Nav.Link>
+                        <Nav.Link as={NavLink} to='/results'>Profil</Nav.Link>
+                        <Nav.Link as={NavLink} to='/results'>Log out</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar> 
@@ -48,7 +42,3 @@ const navbar = () => {
 }
 
 export default navbar
-
-/*<Nav.Link><Link to='/competitions'>Tävlingar</Link></Nav.Link>
-                    <Nav.Link><Link to='/rules'>Regler</Link></Nav.Link>
-                    <Nav.Link><Link to='/contact'>Kontakt</Link></Nav.Link>*/

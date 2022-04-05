@@ -5,6 +5,10 @@ import data from '../../db/flights/NAV-8NT-02_rst.igc'
 
 const Map = () => {
     const [flightData, setFlightData] = useState(null)
+    const zoom = 9
+    const maxZoom = 15
+    const flightLineColor = "lime"
+    const taskLineColor = "blue"
 
     useEffect(()=>{
         fetch(data)
@@ -13,38 +17,34 @@ const Map = () => {
             .then(data => setFlightData(data))
     },[])
 
-    const getTaskPoints = () => {
-        let pointArr = []
-        flightData.task.points.map(point => {
-            pointArr = [...pointArr, [point.latitude, point.longitude]]
+    const getTaskPositions = () => {
+        const pointArr = flightData.task.points.map(point => {
+            return [point.latitude, point.longitude]
         })
         pointArr.pop()
         pointArr.shift()
         return pointArr
-    }  
-
-    const getFlightPoints = () => {
-        let pointArr = []
-        flightData.fixes.map(point=>{
-            pointArr = [...pointArr, [point.latitude, point.longitude]]
-        })
-        return pointArr
     }
 
+    const getFlightPositions = () => {
+        return flightData.fixes.map(point=>{
+            return [point.latitude, point.longitude]
+        })
+    }
 
     return(
         <div className='leaflet-container'>
             {flightData &&
-                <MapContainer className='map' center={getTaskPoints()[0]} zoom={9} maxZoom={15} scrollWheelZoom={true}>
+                <MapContainer className='map' center={getTaskPositions()[0]} zoom={zoom} maxZoom={maxZoom} scrollWheelZoom={true}>
                     <TileLayer
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png"
                     />
-                        <Polyline pathOptions={{ color: 'lime' }} positions={getTaskPoints()} />
+                        <Polyline pathOptions={{ color: flightLineColor }} positions={getTaskPositions()} />
                         {
-                            getTaskPoints().map(point=><Circle center={point} pathOptions={{color: 'red'}} radius={500} />)
+                            getTaskPositions().map(point=><Circle center={point} pathOptions={{color: 'red'}} radius={500} />)
                         }
-                        <Polyline pathOptions={{ color: 'blue' }} positions={getFlightPoints()} />
+                        <Polyline pathOptions={{ color: taskLineColor }} positions={getFlightPositions()} />
                 </MapContainer>
             }
         </div>
