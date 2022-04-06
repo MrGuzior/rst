@@ -1,7 +1,7 @@
 import React,{
     useState
 } from 'react'
-import {NavLink, useHistory, useLocation, useParams} from 'react-router-dom'
+import {NavLink, useParams} from 'react-router-dom'
 import {
     Navbar,
     Nav,
@@ -12,7 +12,6 @@ import {
 const ResultNavigation = () => {
     const [activeCategory, setActiveCategory] = useState('Total')
 
-    const location = useLocation()
     const {category, league, segment} = useParams()    
 
     return (
