@@ -8,6 +8,9 @@ import './App.css'
 import Nav from '../Nav/Nav'
 import Home from '../Home/Home'
 import Results from '../Results/Results'
+import Contact from '../Contact/Contact'
+import Register from '../Register/Register'
+import Rules from '../Rules/Rules'
 import Flight from '../Flight/Flight'
 import Login from '../Login/Login'
 import NewResult from '../NewResult/NewResult'
@@ -29,6 +32,9 @@ function App() {
             <Route path='/map' component={Map}/>
             <Route path='/login' component={Login}/>
             <Route path='/profile' component={Profile}/> 
+            <Route path='/rules' component={Rules}/> 
+            <Route path='/register' component={Register}/> 
+            <Route path='/contact' component={Contact}/> 
           </Switch>
       </Router>
     </>

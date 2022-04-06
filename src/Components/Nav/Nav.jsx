@@ -32,9 +32,9 @@ const navbar = () => {
                             <NavDropdown.Item as={NavLink} to='/results/fai/total/combi'>HDI Vängsö</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Mer" id="collasible-nav-dropdown">
-                            <NavDropdown.Item as={NavLink} to='/results/individual/total/combi'>Regler</NavDropdown.Item>
-                            <NavDropdown.Item as={NavLink} to='/results/individual-female/total/combi'>Register</NavDropdown.Item>
-                            <NavDropdown.Item as={NavLink} to='/results/retro/total/combi'>Kontakt</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/rules'>Regler</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/register'>Register</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/contact'>Kontakt</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                     <Nav className=" personal-nav">
